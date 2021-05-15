@@ -1,85 +1,110 @@
 <ModOps>
+  <!-- Neue Schiffe -->
   <ModOp Type="add" Path="TextExport/Texts">
-    <Text>
-		<GUID>951008</GUID>
-		<Text>Advanced Shipyard</Text>
-	</Text>
-	<Text>
-		<GUID>951009</GUID>
-		<Text>Specialized shipyard for building more advanced sailships and a very first steamship.</Text>
-    </Text>
-	<Text>
-		<GUID>6800000</GUID>
-		<Text>Airship-Hall</Text>
-	</Text>
-	<Text>
-		<GUID>6800001</GUID>
-		<Text>A huge factory for creating a simple aircraft ship, which can carry some goods. Needs a lot of workers and sails.</Text>
-    </Text>
-	<!-- Ships -->
 	<Text>
 		<GUID>6700000</GUID>
 		<Text>Royal Clipper</Text>
 	</Text>
+    <Text>
+		<GUID>6800030</GUID>
+		<Text>Battle Ship</Text>
+	</Text>
 	<Text>
-		<GUID>6700001</GUID>
-		<Text>Built for diplomats this is a very agile and fast sailship.</Text>
+		<GUID>6800031</GUID>
+		<Text>Battle Ships are the proud of the navy. They are mighty and tanky but cost a lot of maintainance and should be companied by smaller ships.</Text>
     </Text>
     <Text>
-		<GUID>6700110</GUID>
-	<Text>Royal Galleon</Text>
+		<GUID>6800040</GUID>
+		<Text>Ironclad</Text>
 	</Text>
+	<Text>
+		<GUID>6800041</GUID>
+		<Text>A steamship with a cannon tower and side guns. Suitable for catching up on most ships.</Text>
+    </Text>
+	<Text>
+		<GUID>6700110</GUID>
+		<Text>Royal Galleon</Text>
+    </Text>
 	<Text>
 		<GUID>6700111</GUID>
-		<Text>Made for oversea traffic, this a very well defended tradeship.</Text>
-    </Text>
-	<Text>
-		<GUID>6700030</GUID>
-		<Text>Steamship</Text>
-	</Text>
-	<Text>
-		<GUID>6700031</GUID>
-		<Text>A sturdy construction made of steel serving as a first steamship, that comes without heavy motors. Very weak to enemy fire.</Text>
-    </Text>
-	<Text>
-		<GUID>6700040</GUID>
-		<Text>Black Hunter</Text>
-	</Text>
-	<Text>
-		<GUID>6700041</GUID>
-		<Text>A very fast and versatile sailship, that will catch up to any other ship. It offers only light weapons.</Text>
+		<Text>Made for our queen for save oversea transfers. Strong ship with good capacities.</Text>
     </Text>
 	<Text>
 		<GUID>6700050</GUID>
-		<Text>Black Warship</Text>
+		<Text>Heavy Warship</Text>
 	</Text>
 	<Text>
 		<GUID>6700051</GUID>
-		<Text>A true warship heavily armed. It can even defeat some steamships. It lacks a lot in acceleration and turning speed.</Text>
+		<Text>A true warship with huge firepower and good armor. Due to its size, it will be a lot slower than most ships.</Text>
     </Text>
 	<Text>
 		<GUID>6700060</GUID>
-		<Text>Huge freigther</Text>
+		<Text>Huge Collier</Text>
 	</Text>
 	<Text>
 		<GUID>6700061</GUID>
-		<Text>This very long freigther can carry a lot of goods. Due to modern motors it is even slightly faster than the freigther.</Text>
-    </Text>
-	<Text>
-		<GUID>6700070</GUID>
-		<Text>"Red Star" Battlecruiser</Text>
-	</Text>
-	<Text>
-		<GUID>6700071</GUID>
-		<Text>The "Red Star" series is the most modern ship series the time being. It should defeat every other ship in a single combat. Even the speed has been improved.</Text>
-    </Text>
-	<Text>
-		<GUID>6800010</GUID>
-		<Text>Simple airship</Text>
-	</Text>
-	<Text>
-		<GUID>6800011</GUID>
-		<Text>A flying tradeship with only limited storage for goods. Not very fast, but can't be shot down from ground ships.</Text>
+		<Text>Collier supporting huge amounts of goods. Will be a lot slower if fully loaded.</Text>
     </Text>
   </ModOp>
+  
+  <!-- Verbesserte Schiffe -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102420']/Text">
+      <Text>Improved Cannonboat</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22020']/Text">
+      <Text>Mass production makes these ships faster and cheaper to build, and even a little stronger.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102427']/Text">
+      <Text>Improved Royal Galleon</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22027']/Text">
+      <Text>Newest models come with stronger armor and are more agile.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102419']/Text">
+      <Text>Improved Heavy Warship</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22022']/Text">
+      <Text>New motors make these heavy ship types quite a lot faster.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102422']/Text">
+      <Text>Improved Monitor</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22023']/Text">
+      <Text>Small guns replacing old ones, gives the newer monitor more firepower.</Text>
+  </ModOp>
+  
+  <!-- Specialists -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192459']/Text">
+      <Text>Shih Yang, Master of Warships</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21397']/Text">
+      <Text>His big warhips combine wind power with horse power from a motor perfectly.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192457']/Text">
+      <Text>Gideon Small, Master of Cannonboats</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21395']/Text">
+      <Text>Big invention of a small man - mass production.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192460']/Text">
+      <Text>Maria Pizarro, Master of Monitors</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21398']/Text">
+      <Text>The former pirate is now improving monitors, to be safe from pirate attacks.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21402']/Text">
+      <Text>Shipbuilding-Master of our Queen. Specialized on Galleons.</Text>
+  </ModOp>
+  
+  <!-- Veränderte Schiffe -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '1088']/Text">
+      <Text>Hybrid ship model. It serves as a small agile warship or as a medium and defended tradeship.</Text>
+  </ModOp>
+  
 </ModOps>
