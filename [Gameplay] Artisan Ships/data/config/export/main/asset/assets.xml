@@ -864,7 +864,7 @@
           <TurnDeceleration>0</TurnDeceleration>
           <TurnMovement>0</TurnMovement>
           <LeaningMaxAngle>-10</LeaningMaxAngle>
-          <ForwardSpeed>7.3</ForwardSpeed>
+          <ForwardSpeed>6.9</ForwardSpeed>
           <WindMinSlowdownFactor>1</WindMinSlowdownFactor>
           <WindMaxSpeedupFactor>1</WindMaxSpeedupFactor>
           <CargoFullFactor>0.8</CargoFullFactor>
@@ -908,7 +908,7 @@
           <ReloadTime>25</ReloadTime>
           <ProjectileAsset>101974</ProjectileAsset>
           <ProjectileCount>10</ProjectileCount>
-          <BaseDamage>115</BaseDamage>
+          <BaseDamage>105</BaseDamage>
           <Turrets>
             <Item>
               <TurnSpan>320</TurnSpan>
