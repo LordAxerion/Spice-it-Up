@@ -6,3 +6,5 @@
 <h4 align="center">Anno 1800 Mod Collection</h4>
 
 <p align="center"><a href="https://www.nexusmods.com/anno1800/mods/5">Nexus Mods</a> / <a href="https://www.reddit.com/r/anno/comments/lqnrpa/mod_spice_it_up_302/">Reddit</a> / <a href="https://discord.com/invite/KtfWbev">Discord</a></p>
+
+<p>Clone this repository into "<i>uplay-directory</i>\games\Anno 1800\mods" and switch to the "custom" branch.</p>
