@@ -44,7 +44,7 @@
           <TurnDeceleration>0</TurnDeceleration>
           <TurnMovement>0</TurnMovement>
           <LeaningMaxAngle>-20</LeaningMaxAngle>
-          <ForwardSpeed>5.9</ForwardSpeed>
+          <ForwardSpeed>6.4</ForwardSpeed>
           <WindMinSlowdownFactor>0.6</WindMinSlowdownFactor>
           <WindSlowdownEffectOnTurningSpeed>0.15</WindSlowdownEffectOnTurningSpeed>
           <WindMaxSpeedupFactor>1.8</WindMaxSpeedupFactor>
@@ -287,7 +287,7 @@
           <TurnDeceleration>0</TurnDeceleration>
           <TurnMovement>0</TurnMovement>
           <LeaningMaxAngle>-10</LeaningMaxAngle>
-          <ForwardSpeed>7.2</ForwardSpeed>
+          <ForwardSpeed>6.6</ForwardSpeed>
           <WindMinSlowdownFactor>0.4</WindMinSlowdownFactor>
           <WindSlowdownEffectOnTurningSpeed>0.55</WindSlowdownEffectOnTurningSpeed>
           <WindMaxSpeedupFactor>1.5</WindMaxSpeedupFactor>
@@ -318,7 +318,7 @@
         </Drifting>
         <Collector />
         <Attackable>
-          <MaximumHitPoints>5000</MaximumHitPoints>
+          <MaximumHitPoints>4000</MaximumHitPoints>
           <HPBarOffset>9.5</HPBarOffset>
           <AlertRange>150</AlertRange>
           <AccuracyWidth>4</AccuracyWidth>
