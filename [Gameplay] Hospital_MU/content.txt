@@ -1,0 +1,26 @@
+[Gameplay] Hospital_MU 1.0
+
+Dieser Mod fügt 2 weiter Hospitale / Ärzte hinzu.
+
+das Sanatorium:
+---------------------
+Einsatzkräfte Reichweite ( im Vergleich zum Orginal ) : +500%
+Einsatzkräfte ( im Vergleich zum Orginal ) : +150% (5 Einheiten)
+Einsatzkräfte Bewegungsrate ( im Vergleich zum Orginal ) : +35%
+Einsatzkräfte Eingreiftempo ( im Vergleich zum Orginal ) : +150%
+Verringert Krankheit ( im Vergleich zum Orginal ) : +5%
+Reichweite Krankheit-reduzierung ( im Vergleich zum Orginal ) : +500%
+
+
+der Heilpraktiker:
+---------------------
+Einsatzkräfte Reichweite ( im Vergleich zum Orginal ) : -16%
+Einsatzkräfte ( im Vergleich zum Orginal ) : +50% (3 Einheiten)
+Einsatzkräfte Bewegungsrate ( im Vergleich zum Orginal ) : +15%
+Einsatzkräfte Eingreiftempo ( im Vergleich zum Orginal ) : +50%
+Verringert Krankheit ( im Vergleich zum Orginal ) : -3%
+Reichweite Krankheit-reduzierung ( im Vergleich zum Orginal ) : -15%
+
+
+
+Die Gebäude wurden in das Orginalbaumenü vom Hospital integriert,verfügbarkeit in embesa.

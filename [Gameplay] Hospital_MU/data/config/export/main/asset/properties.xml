@@ -1,0 +1,22 @@
+<ModOps>
+   <ModOp Type = "replace" Path = '/Properties/Groups/Group/DefaultValues/IncidentResolverUnit'>
+		<IncidentResolverUnit>
+          <ResolverOperatingDistance>60000</ResolverOperatingDistance>
+          <ResolverMovementSpeed>0.8</ResolverMovementSpeed>
+          <IntensityDecreaseRate>0.1</IntensityDecreaseRate>
+          <FeedbackUnitClass>0</FeedbackUnitClass>
+        </IncidentResolverUnit>
+        <IncidentResolverUnitHospital>
+          <ResolverOperatingDistance>300000</ResolverOperatingDistance>
+          <ResolverMovementSpeed>1.08</ResolverMovementSpeed>
+          <IntensityDecreaseRate>0.25</IntensityDecreaseRate>
+          <FeedbackUnitClass>0</FeedbackUnitClass>
+        </IncidentResolverUnitHospital>
+		<IncidentResolverUnitHospital2>
+          <ResolverOperatingDistance>50400</ResolverOperatingDistance>
+          <ResolverMovementSpeed>0.92</ResolverMovementSpeed>
+          <IntensityDecreaseRate>0.15</IntensityDecreaseRate>
+          <FeedbackUnitClass>0</FeedbackUnitClass>
+        </IncidentResolverUnitHospital2>
+    </ModOp>
+</ModOps>

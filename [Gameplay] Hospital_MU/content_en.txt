@@ -1,0 +1,26 @@
+[Gameplay] Hospital_MU 1.0
+
+This mod adds 2 more hospitals / doctors.
+
+the sanatorium:
+---------------------
+Reach of the emergency forces (in comparison to the original) : +500
+Emergency forces (compared to the original) : +150% (5 units)
+Emergency forces movement rate (compared to the original) : +35%
+Emergency forces intervention speed (compared to the original) : +150
+Reduces sickness (compared to the original) : +5%
+Disease reduction range (compared to the original) : +500%.
+
+
+the alternative practitioner:
+---------------------
+Reach of the emergency forces (compared to the original) : -16%.
+Emergency forces (compared to the original) : +50% (3 units)
+Emergency forces movement rate (in comparison to the original) : +15
+Emergency forces intervention speed (compared to the original) : +50%.
+Reduces disease (compared to the original) : -3%.
+Range of disease reduction (compared to the original) : -15%.
+
+
+
+The buildings were integrated into the original building menu of the hospital,availability in embesa.
