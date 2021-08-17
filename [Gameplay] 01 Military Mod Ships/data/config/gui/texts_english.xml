@@ -1,0 +1,106 @@
+<ModOps>
+  <!-- Neue Schiffe -->
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>6800030</GUID>
+		<Text>Battle Ship</Text>
+	</Text>
+	<Text>
+		<GUID>6800031</GUID>
+		<Text>Battle Ships are the proud of the navy. They are mighty and tanky but cost a lot of maintainance and should be companied by smaller ships.</Text>
+    </Text>
+    <Text>
+		<GUID>6800040</GUID>
+		<Text>Ironclad</Text>
+	</Text>
+	<Text>
+		<GUID>6800041</GUID>
+		<Text>A steamship with a cannon tower and side guns. Suitable for catching up on most ships.</Text>
+    </Text>
+	<Text>
+		<GUID>6700110</GUID>
+		<Text>Royal Galleon</Text>
+    </Text>
+	<Text>
+		<GUID>6700111</GUID>
+		<Text>Made for our queen for save oversea transfers. Strong ship with good capacities.</Text>
+    </Text>
+	<Text>
+		<GUID>6700050</GUID>
+		<Text>Heavy Warship</Text>
+	</Text>
+	<Text>
+		<GUID>6700051</GUID>
+		<Text>A true warship with huge firepower and good armor. Due to its size, it will be a lot slower than most ships.</Text>
+    </Text>
+	<Text>
+		<GUID>6700060</GUID>
+		<Text>Huge Collier</Text>
+	</Text>
+	<Text>
+		<GUID>6700061</GUID>
+		<Text>Collier supporting huge amounts of goods. Will be a lot slower if fully loaded.</Text>
+    </Text>
+  </ModOp>
+  
+  <!-- Verbesserte Schiffe -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102420']/Text">
+      <Text>Improved Cannonboat</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22020']/Text">
+      <Text>Mass production makes these ships faster and cheaper to build, and even a little stronger.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102427']/Text">
+      <Text>Improved royal Galleon</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22027']/Text">
+      <Text>Newest models come with stronger armor and are more agile.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102419']/Text">
+      <Text>Improved heavy Warship</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22022']/Text">
+      <Text>New motors make these heavy ship types quite a lot faster.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102422']/Text">
+      <Text>Improved Monitor</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22023']/Text">
+      <Text>Small guns replacing old ones, gives the newer monitor more firepower.</Text>
+  </ModOp>
+  
+  <!-- Specialists -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192459']/Text">
+      <Text>Shih Yang, Master of Warships</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21397']/Text">
+      <Text>His big war warhips combine wind power with horse power from a motor perfectly.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192457']/Text">
+      <Text>Gideon Small, Master of Cannonboats</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21395']/Text">
+      <Text>Big invention of a small man - mass production.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192460']/Text">
+      <Text>Maria Pizarro, Master of Monitors</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21398']/Text">
+      <Text>The former pirate is now improving monitors, to be save from pirate attacks.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21402']/Text">
+      <Text>Shipbuilding-Master of our Queen. Specialized on Galleons.</Text>
+  </ModOp>
+  
+  <!-- Veränderte Schiffe -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '1088']/Text">
+      <Text>Hybrid ship model. It serves as a small agile warship or as a medium and defended tradeship.</Text>
+  </ModOp>
+  
+</ModOps>

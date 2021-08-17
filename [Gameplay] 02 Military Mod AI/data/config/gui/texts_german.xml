@@ -1,0 +1,30 @@
+<ModOps>
+  <!-- Neue Schiffe -->
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>6800000</GUID>
+		<Text>Bentes Schlachtschiff "Revenge"</Text>
+	</Text>
+	<Text>
+		<GUID>6800001</GUID>
+		<Text>Schlachtschiffe sind ein Symbol für die Dominanz und Macht der Marine. Trotz ihrer enormen Feuerkraft und ihrer Panzerung sind Schlachtschiffe enorm teuer im Unterhalt und sollten nie alleine ohne Flotte gelassen werden.</Text>
+    </Text>
+    <Text>
+		<GUID>951008</GUID>
+		<Text>Geheime Dampfschiffswerft</Text>
+	</Text>
+	<Text>
+		<GUID>951009</GUID>
+		<Text>Eine geheime Einreichtung zum Bau moderner Dampfschiffe, sieht von außen wie eine alte Segelschiffswerft aus.</Text>
+    </Text>
+	<Text>
+		<GUID>6800050</GUID>
+		<Text>Hafen-Artillerie</Text>
+	</Text>
+	<Text>
+		<GUID>6800051</GUID>
+		<Text>Eine große Kanone mit enormer Reichweite um Schiffe aus großer Entfernung abzuschießen.</Text>
+    </Text>
+  </ModOp>
+  
+</ModOps>

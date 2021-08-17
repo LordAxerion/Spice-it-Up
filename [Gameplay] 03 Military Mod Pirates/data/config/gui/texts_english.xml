@@ -1,0 +1,50 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>6800010</GUID>
+		<Text>Battle Ship "The Red Pearl"</Text>
+	</Text>
+	<Text>
+		<GUID>6800011</GUID>
+		<Text>A huge Pirate Cruiser, inspired by the "Red Pearl", the legendary pirate ship. It takes quite some influence to order one from former pirates..</Text>
+    </Text>
+    <Text>
+		<GUID>6800020</GUID>
+		<Text>Armored Collier</Text>
+	</Text>
+	<Text>
+		<GUID>6800021</GUID>
+		<Text>A stronger version of the collier. Holds at least twice long when under fire.</Text>
+    </Text>
+  </ModOp>
+  
+  <!-- Specialists -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192463']/Text">
+      <Text>Engineer Redeye, Designer of the "Red Pearl"</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21401']/Text">
+      <Text>Since he lost his eye in a battle, he worked hard on his big dream, the "Red Pearl".</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192461']/Text">
+      <Text>Pyrotechnician Oppenheimer, Engineer of the armored collier</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21399']/Text">
+      <Text>Within hundrets of experiments on making steel more resistant to fire, he once burnt his whole face. But the success finally came true.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192458']/Text">
+      <Text>Capt'n Jackie Arrow, Captain of the "Red Pearl"</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21396']/Text">
+      <Text>Her responsiveness and mind are sharp as an arrow. Due to her extraordinary talent at the cannon and her fighting abilities, she finally became captain of the "Red Pearl".</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192465']/Text">
+      <Text>Belle Ance, Developer of new technologies</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21403']/Text">
+      <Text>She was always fascinated by the invention of new manufacturing methods. Recently she found a way to make the processing more rewarding.</Text>
+  </ModOp>
+  
+</ModOps>

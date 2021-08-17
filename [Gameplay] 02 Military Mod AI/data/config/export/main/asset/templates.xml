@@ -1,0 +1,33 @@
+<ModOps>
+  <!-- ADD SHIPYARD FOR AI TO BUILDOPTIONS -->
+  <ModOp Type="replace" Path="//Template[Name = 'Profile_2ndParty']/Properties/ConstructionAI/CrafterConfiguration">
+	        <CrafterConfiguration>
+              <CrafterConstruction>
+			  <Item> <!-- Shipyard for Ai only -->
+                  <CrafterBuilding>951008</CrafterBuilding>
+                  <SessionType>MainForRegion</SessionType>
+                </Item>
+                <Item>
+                  <CrafterBuilding>1010520</CrafterBuilding>
+                  <SessionType>MainForRegion</SessionType>
+                </Item>
+                <Item>
+                  <CrafterBuilding>1010521</CrafterBuilding>
+                  <SessionType>MainForRegion</SessionType>
+                </Item>
+                <Item>
+                  <CrafterBuilding>101277</CrafterBuilding>
+                  <Region>Colony01</Region>
+                  <SessionType>MainForRegion</SessionType>
+                  <RequiredUnlock>1010285</RequiredUnlock>
+                </Item>
+                <Item>
+                  <CrafterBuilding>1010520</CrafterBuilding>
+                  <SessionType>Other</SessionType>
+                  <RequiredUnlock>1010285</RequiredUnlock>
+                </Item>
+              </CrafterConstruction>
+            </CrafterConfiguration>
+  </ModOp>
+  
+</ModOps>

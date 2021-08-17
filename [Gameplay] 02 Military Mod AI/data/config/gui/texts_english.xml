@@ -1,0 +1,30 @@
+<ModOps>
+  <!-- Neue Schiffe -->
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>6800000</GUID>
+		<Text>Bentes Battle Ship "Revenge"</Text>
+	</Text>
+	<Text>
+		<GUID>6800001</GUID>
+		<Text>This Ship is Bentes Revenge on everyone that had her heart broken.</Text>
+    </Text>
+    <Text>
+		<GUID>951008</GUID>
+		<Text>Hidden Steamshipyard</Text>
+	</Text>
+	<Text>
+		<GUID>951009</GUID>
+		<Text>Top hidden Steamshipyard. Looking like a plain sailshipyard from far.</Text>
+    </Text>
+	<Text>
+		<GUID>6800050</GUID>
+		<Text>Harbor Artillery</Text>
+	</Text>
+	<Text>
+		<GUID>6800051</GUID>
+		<Text>A huge cannon to protect islands even more.</Text>
+    </Text>
+  </ModOp>
+  
+</ModOps>

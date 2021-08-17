@@ -1,0 +1,38 @@
+Military Mod
+
+Designed for players who want to have a challenge while building up - or players that want to focus on seafight part of the game.
+This Mod is seperated into 3 different parts, so you can choose what you actually want.
+
+**** Important ****
+Part 1 has to be active, in order to use part 2 or part 3 or both.
+Also dont rename folders. (if you do keep the order of parts 1 to 3)
+
+**** Mod Compabilities ****
+This mod is not compatible to the old "new ships" mod. You also should remove Battleship and IrconClad Mods (ships are added within this mod).
+
+****************************** PART 1 (THIS MOD) (REQUIRED TO USE PART 2/3) *********************************************
+
+This adds various ship types and rearranges ship balances a little bit. It also allows the AIs to use all new ships (and they will do).
+
+- New Ship: Royal Galleon
+            Massive Tradeships with some self defense. Almost as fast as a clipper but not that agile.
+
+- New Ship: Heavy Warships
+            Bigger and slower version of a lineship, has more range and more damage.
+
+- New Ship: Huge Cargo Ship
+            Expensive and very big collier type with huge capacities. Very slow if fully loaded.
+
+- New Ship: Irconclad
+            (Irconclad Mod) A versatile fast new steambased warship. Stats based on original mod.
+
+- New Ship: Battleship
+            (Battleship Mod) Huge battleship, heavy armored and well armed. Stats based on original mod.
+
+- Redesign: Monitor
+            This ship can be used as a cheap steambased warship or as a good defended tradeship (4 slots now).
+
+- Balance: Cannon Boat
+           Will be cheaper to build and faster against the wind. Also got some more hitpoints.
+
+Adds specialists to build upgraded versions from some of the new ships.

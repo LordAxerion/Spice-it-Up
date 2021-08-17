@@ -1,0 +1,35 @@
+Military Mod
+
+Designed for players who want to have a challenge while building up - or players that want to focus on seafight part of the game.
+This Mod is seperated into 3 different parts, so you can choose what you actually want.
+
+**** Important ****
+Part 1 has to be active, in order to use part 2 or part 3 or both.
+Also dont rename folders. (if you do keep the order of parts 1 to 3)
+
+**** Mod Compabilities ****
+This mod is not compatible to the old "new ships" mod. You also should remove Battleship and IrconClad Mods (ships are added within this mod).
+
+****************************** PART 2 (THIS MOD) (REQUIRES PART 1) *********************************************
+
+This buffs Bente, Willie and the Princess from 1 star to 4 star AIs. They will build up faster to investor levels,
+make a lot of more ships (also new ships) and they will have their harbor defenses upgraded. Defenses in the old world
+will be buffed even more. Also some diplomacy changes to make them compatible with others AIs.
+
+Those three AIs shall be a real challange all over the game and will be even very hard to remove in the endgame, despite
+you having huge fleets with items. Especially Bente is designed to have a real endgame rentless opponent, if u let her build.
+
+Princess Qing will be the most balanced AI over the buffed ones.
+
+Willie Wibblesock will focus the most on military, attacks and defenses.
+
+Bente Jorgenson will be the toughest one - she will build the strongest defenses, will build up slightly faster than
+      both others and will get a special ship type, only available to her, that can cause serious trouble.
+
+The Mod also gives Admiral Silva a slight improve on old world defense and buffs the Anarchist Hugo Mercier to a 
+regual 3 star AI (his diplomacy and diplomacy based actions are not affected and will stay as usual).
+
+You can try, but i would not recommed using all three 4* AIs in one game - you will regret it.
+
+Keep in mind that you might want to change some settings like influence or income to an easier level in order to compete with
+the new AIs.

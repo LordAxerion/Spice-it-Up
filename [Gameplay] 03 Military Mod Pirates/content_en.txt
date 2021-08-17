@@ -1,0 +1,27 @@
+Military Mod
+
+Designed for players who want to have a challenge while building up - or players that want to focus on seafight part of the game.
+This Mod is seperated into 3 different parts, so you can choose what you actually want.
+
+**** Important ****
+Part 1 has to be active, in order to use part 2 or part 3 or both.
+Also dont rename folders. (if you do keep the order of parts 1 to 3)
+
+**** Mod Compabilities ****
+This mod is not compatible to the old "new ships" mod. You also should remove Battleship and IrconClad Mods (ships are added within this mod).
+
+****************************** PART 3 (THIS MOD) (REQUIRES PART 1) *********************************************
+
+This buffs both Pirates to a very military heavy and challening AI. Pirates will have larger fleets, use more modern-tech ships
+and some stronger ships. They will also built ships way faster and will get a unique super-heavy ship that can compete with
+larger fleets.
+
+Pirates diplomacy was not changed but made it harder to have permanent peace. Also harbor defenses stay mostly the same as before.
+
+If you however manage to remove a pirate, he will be faster back and come with a large armada to reign the world again.
+
+Recommended setting for pirates is "Normal". if you put it to "Hard" you will really struggle in early game to get off you island.
+Especially if you use all three parts of the mod, the improved AI and the pirate will be become very hard to handle in most
+stages of the game.
+
+This part also adds another new ships to the game, both pirate based.

@@ -1,0 +1,113 @@
+<ModOps>
+  <!-- Neue Schiffe -->
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>6800030</GUID>
+		<Text>Schlachtschiff</Text>
+	</Text>
+	<Text>
+		<GUID>6800031</GUID>
+		<Text>Schlachtschiffe sind ein Symbol für die Dominanz und Macht der Marine. Trotz ihrer enormen Feuerkraft und ihrer Panzerung sind Schlachtschiffe enorm teuer im Unterhalt und sollten nie alleine ohne Flotte gelassen werden.</Text>
+    </Text>
+    <Text>
+		<GUID>6800040</GUID>
+		<Text>Panzerschiff</Text>
+	</Text>
+	<Text>
+		<GUID>6800041</GUID>
+		<Text>Ein dampfbetriebenes Kriegschiff mit Geschütztürmen und seitlichen Kanonen. Ein sehr schnelles Schiff mit mäßiger Panzerung.</Text>
+    </Text>
+	<Text>
+		<GUID>6700110</GUID>
+		<Text>Royale Galeone</Text>
+    </Text>
+	<Text>
+		<GUID>6700111</GUID>
+		<Text>Entwickelt für den Überseetransfer, ist dieses Handelsschiff sehr robust und keinesfalls wehrlos. Für Kurzstrecken nur bedingt nützlich.</Text>
+    </Text>
+	<Text>
+		<GUID>6700050</GUID>
+		<Text>Schweres Kriegsschiff</Text>
+	</Text>
+	<Text>
+		<GUID>6700051</GUID>
+		<Text>Ein wahres Kriegsschiff mit enormer Bewaffnung, das es auch mit Dampfschiffen aufnimmt. Durch seine Größe und verstärkte Panzerung ist es eher langsam unterwegs.</Text>
+    </Text>
+	<Text>
+		<GUID>6700060</GUID>
+		<Text>Großes Frachtschiff</Text>
+	</Text>
+	<Text>
+		<GUID>6700061</GUID>
+		<Text>Diese Lange Frachtschiff ist in der Lage enorme Mengen Güter zu transportieren. Voll beladen allerdings nur sehr langsam unterwegs.</Text>
+    </Text>
+  </ModOp>
+  
+  <!-- Verbesserte Schiffe -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102420']/Text">
+      <Text>Verbessertes Kanonenboot</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22020']/Text">
+      <Text>Durch neue Massenproduktionsverfahren kann diese Version günstiger und schneller gebaut werden. Sie ist sogar ein wenig stabiler.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102427']/Text">
+      <Text>Verbesserte royale Galeone</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22027']/Text">
+      <Text>Die neuen Versionen sind um einiges wendiger und ihre Panzerung wurde weiter verstärkt.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102419']/Text">
+      <Text>Verbessertes schw. Kriegschiff</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22022']/Text">
+      <Text>Der Einbau neuerer Motoren erhöht die Bewegungsgeschwindigkeit des schweren Kriegsschiffs.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102422']/Text">
+      <Text>Verbesserter Monitor</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22023']/Text">
+      <Text>Das Einsetzen von modernen kleinen Geschützen erhöht den Schaden des Monitors.</Text>
+  </ModOp>
+  
+  <!-- Specialists -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192459']/Text">
+      <Text>Shih Yang, Meister der Kriegsschiffe</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21397']/Text">
+      <Text>Seine großen Kriegsschiffe aus dem Kaiserreich kombinieren die Windkraft mit neuesten Motoren.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192457']/Text">
+      <Text>Gideon Small, Meister der Kanonenboote</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21395']/Text">
+      <Text>Die größte Erfindung des kleinen Mannes - Massenproduktion für Schiffswerften.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192460']/Text">
+      <Text>Maria Pizarro, Meisterin der ​Monitoren</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21398']/Text">
+      <Text>Die ehemalige Piratin nutzt nun ihr Wissen über Waffen, um Monitore gegen Überfälle zu verstärken.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21402']/Text">
+      <Text>Meisterschiffsbauer ihrer Majestät. Spezialisiert auf robuste Galeonen.</Text>
+  </ModOp>
+  
+  <!-- Veränderte Schiffe -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '102425']/Text">
+      <Text>Pyrphorischer Schlachtkreuzer</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '22025']/Text">
+      <Text>Ein kleiner Schlachtkreuzer, ausgerüstet mit Flammenwerfer-Raketen. Auf nahe Distanzen entsteht ein enormes Schadenspotential.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '1088']/Text">
+      <Text>Ein Hybrid-Dampfschiff, das als wendiges kleines Kriegsschiff oder auf umkämpften Handelsrouten eingesetzt werden kann.</Text>
+  </ModOp>
+  
+</ModOps>

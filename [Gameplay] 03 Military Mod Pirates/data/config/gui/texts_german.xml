@@ -1,0 +1,50 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>6800010</GUID>
+		<Text>Schlachtschiff "The Red Pearl"</Text>
+	</Text>
+	<Text>
+		<GUID>6800011</GUID>
+		<Text>Riesiger Piratenkreuzer nach dem Vorbild der "Red Pearl", dem legendären Piratenschiff. Es ist schon etwas Einfluss notwendig um an eins zu gelangen.</Text>
+    </Text>
+    <Text>
+		<GUID>6800020</GUID>
+		<Text>Gepanzertes Frachtschiff</Text>
+	</Text>
+	<Text>
+		<GUID>6800021</GUID>
+		<Text>Ein durch spezielle Legierungen verstärktes Frachtschiff. Hält Beschüssen außerordentlich lang stand und ist kaum zu bremsen.</Text>
+    </Text>
+  </ModOp>
+  
+  <!-- Specialists -->
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192463']/Text">
+      <Text>Ingenieur Rotauge, Designer der "Red Pearl"</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21401']/Text">
+      <Text>Als er sein Auge im Gefecht verlor, schloss er sich den Piraten an und arbeitete seitdem an seinem großen Traum, der "Red Pearl".</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192461']/Text">
+      <Text>Pyrotechniker Oppenheimer, Ingenieur des gepanzerten Frachters</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21399']/Text">
+      <Text>Durch unzählige Experimente Stahl noch hitzebeständiger und stabiler gegen Beschüsse zu machen, verbrannte er sich ganzes Gesicht. Trotzdem schaffte er es noch seine Ideen umzusetzen.</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192458']/Text">
+      <Text>Käpt'n Jackie Arrow, Kapitän der "Red Pearl"</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21396']/Text">
+      <Text>Ihr Reaktionsvermögen und Verstand sind scharf wie ein Pfeil. Durch ihr außergewöhnliches Talent an der Kanone und ihre Kampfeskraft wurde sie schließlich Kapitän der "Red Pearl".</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '192465']/Text">
+      <Text>Belle Ance, Entwicklerin neuer Technologien</Text>
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21403']/Text">
+      <Text>Die Erfindungen neuer Herstellungsmethoden faszinierten sie. Kürzlich fand sie einen Weg ihren Einsatz lohnenswerter zu machen.</Text>
+  </ModOp>
+  
+</ModOps>

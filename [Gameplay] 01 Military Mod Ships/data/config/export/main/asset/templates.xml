@@ -1,0 +1,45 @@
+<ModOps>
+
+  <!-- TRADE SHIPS for AI Improve -->
+  <ModOp Type="replace" Path="//Template[Name = 'Profile_2ndParty']/Properties/ConstructionAI/TradeRules/TradeShipRatio">
+    <TradeShipRatio>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                  </VectorElement>
+                  <Weight>3</Weight>
+                </Item>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>1</InheritedIndex>
+                  </VectorElement>
+                  <Weight>7</Weight>
+                </Item>
+				<Item>
+                  <Ship>6700110</Ship>
+                  <Weight>6</Weight>
+                </Item>
+                <Item>
+                  <Ship>1010062</Ship>
+                  <Weight>18</Weight>
+                </Item>
+				<Item>
+                  <Ship>100443</Ship>
+                  <Weight>8</Weight>
+                </Item>
+				<Item>
+                  <Ship>6700060</Ship>
+                  <Weight>10</Weight>
+                </Item>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>2</InheritedIndex>
+                  </VectorElement>
+                </Item>
+                <Item>
+                  <Ship>114166</Ship>
+                  <Weight>1</Weight>
+                </Item>
+    </TradeShipRatio>
+  </ModOp>
+</ModOps>
