@@ -1,0 +1,11 @@
+[Gameplay] Library_xan 1.0
+
+This mod adds 1 more building to the academic circle.
+
+The library:
+---------------------
+It costs a bit more and has double the effect range.
+(only available in the Old World)
+
+
+The Library was made a part of a new category 'Academic'

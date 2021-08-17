@@ -1,0 +1,11 @@
+[Gameplay] Library_xan 1.0
+
+Este mod añade 1 nuevo edificio a la categoría académica.
+
+La Biblioteca:
+---------------------
+El coste de construcción y materiales es mayor, y su rango de acción se dobla.
+(Solo disponible en Viejo Mundo)
+
+
+La Biblioteca ha sido incorporada como parte de una nueva categoria "Académico"

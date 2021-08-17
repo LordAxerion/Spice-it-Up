@@ -1,0 +1,49 @@
+{
+	"Version": "1.0.0",
+	"ModID": "Fam_MoreUniqueIcons",
+	"IncompatibleIds": [],
+	"ModDependencies": null,
+	"Category": {
+	  "Chinese": null,
+	  "English": "Addon",
+	  "French": null,
+	  "German": "Addon",
+	  "Italian": null,
+	  "Japanese": null,
+	  "Korean": "null",
+	  "Polish": "Dodatek",
+	  "Russian": null,
+	  "Spanish": null,
+	  "Taiwanese": null
+	},
+	"ModName": {
+	  "Chinese": null,
+	  "English": "More Unique Icons",
+	  "French": null,
+	  "German": null,
+	  "Italian": null,
+	  "Japanese": null,
+	  "Korean": null,
+	  "Polish": null,
+	  "Russian": null,
+	  "Spanish": null,
+	  "Taiwanese": null
+	},
+	"Description": {
+	  "Chinese": null,
+	  "English": "Adds 120+ new unique icons for items that have duplicate icons.",
+	  "French": null,
+	  "German": null,
+	  "Italian": null,
+	  "Japanese": null,
+	  "Korean": null,
+	  "Polish": null,
+	  "Russian": null,
+	  "Spanish": null,
+	  "Taiwanese": null
+	},
+	"KnownIssues": null,
+	"DLCDependencies": null,
+	"CreatorName": "Fam",
+	"CreatorContact": "https://www.nexusmods.com/anno1800/users/101551493"
+  }

@@ -1,0 +1,311 @@
+<ModOps>
+	<!-- xan GUID-Range  2 000 150 000 - 2 000 259 999  -->
+	<!-- ID's are used for this mod: 2 000 000 000 to 2 000 000 003 -->
+
+	<!-- Trigger -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130219']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>2000150001</GUID>
+					<Name>intermediate moderate 1.2</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000002</Context>
+								<CounterAmount>900</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>2000150000</Asset>
+											</Item>
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>2000150000</Asset>
+											</Item>
+										</UnhideAssets>
+										<AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- New Buildmenu for OLD WORLD-->
+	<ModOp Type="addNextSibling" GUID='1010464'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>2000150002</GUID>
+					<Name>AcademyOW</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_university.png</IconFilename>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						<Item>
+							<Building>1010362</Building>
+							<!-- Uniersity Original OW-->
+						</Item>
+						<Item>
+							<Building>2000150000</Building>
+							<!-- Library -->
+						</Item>
+					</BuildingList>
+					<CategoryDescription>2000150003</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Academic</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID />
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Replace Original University from Constructionmenu OLD WORLD with new menu-->
+	<ModOp Type="replace" GUID='25000191' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010362']">
+		<Item>
+			<Building>2000150002</Building>
+		</Item>
+	</ModOp>
+
+	<!-- Library  -->
+	<ModOp Type="addNextSibling" GUID='1010362'>
+		<Asset>
+			<Template>PublicServiceBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>2000150000</GUID>
+					<Name>library_xan</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/library_01_0.png</IconFilename>
+				</Standard>
+				<Building>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+				</Building>
+				<Blocking />
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>45000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>60</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>120</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010218</Ingredient>
+							<Amount>100</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010207</Ingredient>
+							<Amount>80</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010202</Ingredient>
+							<Amount>30</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/xan_mods/graphics/xan/buildings/public/library_01/library_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>PublicService</GUIType>
+				</Selection>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Library</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>3734</LineID>
+				</Text>
+				<Constructable />
+				<Locked />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>200857</Sound>
+						</Item>
+					</ActiveSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+									<InheritanceMapV2>
+										<Entry>
+											<TemplateName>PublicServiceBuilding</TemplateName>
+											<Index>0</Index>
+										</Entry>
+									</InheritanceMapV2>
+								</VectorElement>
+								<Sound>214786</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<IncidentSounds>
+						<InfectedFire>
+							<Item>
+								<Sound>214659</Sound>
+							</Item>
+						</InfectedFire>
+					</IncidentSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController>
+					<NightBehavior>HideAll</NightBehavior>
+				</FeedbackController>
+				<Infolayer />
+				<UpgradeList />
+				<LogisticNode>
+					<REMOVE_THIS_LATER_FeedbackUnitTier>Level3</REMOVE_THIS_LATER_FeedbackUnitTier>
+				</LogisticNode>
+				<PublicService>
+					<FullSatisfactionDistance>90</FullSatisfactionDistance>
+					<NoSatisfactionDistance>180</NoSatisfactionDistance>
+					<PublicServiceOutputs>
+						<Item>
+							<Product>1010353</Product>
+						</Item>
+					</PublicServiceOutputs>
+				</PublicService>
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+					<DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+				</AmbientMoodProvider>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>600</Amount>
+							<InactiveAmount>300</InactiveAmount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Attackable>
+					<MaximumHitPoints>8000</MaximumHitPoints>
+					<SelfHealPerHealTick>8</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable />
+				<IncidentInfectable>
+					<Infectable>
+						<Fire>
+							<Base>1</Base>
+						</Fire>
+					</Infectable>
+					<IncidentInfectionChanceFactors>
+						<Fire>
+							<DensityDistance>20</DensityDistance>
+						</Fire>
+					</IncidentInfectionChanceFactors>
+				</IncidentInfectable>
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- AI-blocking building -> Library -->
+	<ModOp Type="add" GUID='220' Path="/Values/ConstructionAI/BuildingReplacements">
+		<Item>
+			<Building>2000150000</Building>
+			<Replacement>1010362</Replacement>
+		</Item>
+	</ModOp>
+
+	<ModOp Type="add" GUID='167' Path="/Values/ConstructionAI">
+		<BuildingReplacements>
+		</BuildingReplacements>
+	</ModOp>
+
+	<ModOp Type="add" GUID='167' Path="/Values/ConstructionAI/BuildingReplacements">
+		<Item>
+			<Building>2000150000</Building>
+			<Replacement>1010362</Replacement>
+		</Item>
+	</ModOp>
+
+	<!-- Library to the buff and logistic pool -->
+	<ModOp Type="add" GUID='141703' Path="/Values/CharacterInteractionConfig/BuildBuildingWhitelist">
+		<Item>
+			<Building>2000150000</Building>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='190136' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>2000150000</GUID>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='190611' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>2000150000</GUID>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='193879' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>2000150000</GUID>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='191501' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>2000150000</GUID>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='193872' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>2000150000</GUID>
+		</Item>
+	</ModOp>
+
+
+	<!-- Library Feedbackunits-->
+	<ModOp Type="add" GUID='142583' Path="/Values/FeedbackBuildingGroup/Buildings">
+		<Item>
+			<Building>2000150000</Building>
+		</Item>
+	</ModOp>
+
+</ModOps>

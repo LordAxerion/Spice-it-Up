@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	  <Text>
+      <GUID>2000150002</GUID>
+      <Text>Académico</Text>
+    </Text>
+    <Text>
+      <GUID>2000150000</GUID>
+      <Text>Biblioteca</Text>
+    </Text>
+    <Text>
+      <GUID>2000150003</GUID>
+      <Text>Lugares para académicos e intelectuales.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

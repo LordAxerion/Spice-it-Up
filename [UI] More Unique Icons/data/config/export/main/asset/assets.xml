@@ -1,0 +1,604 @@
+<ModOps>
+
+	<!-- GROUP: Factory Maintenance Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Certificate of Inspection -->
+	<ModOp GUID="191675" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/a1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Factory Maintenance Decree -->
+	<!-- PURPOSE: Update icon for Rare - Certificate of Industrial Standard -->
+	<ModOp GUID="191676" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/a2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Factory Maintenance Act -->
+	<!-- PURPOSE: Update icon for Epic - Von Malching's Labour Law Proposal -->
+	<ModOp GUID="191677" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/a3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Fire Prevention Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Fire Safety Poster -->
+	<ModOp GUID="191681" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/a4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Fire Prevention Decree -->
+	<!-- PURPOSE: Update icon for Rare - Fire Prevention Directive -->
+	<ModOp GUID="191682" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/a5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Fire Prevention Act -->
+	<!-- PURPOSE: Update icon for Epic - Fizgig's Fabulous Fireproofing Failsafe -->
+	<ModOp GUID="191683" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/a6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Pollution Ban Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Night Pollution By-Law -->
+	<ModOp GUID="191687" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/b1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Pollution Ban Decree -->
+	<!-- PURPOSE: Update icon for Rare - Night and Day Pollution By-Law -->
+	<ModOp GUID="191688" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/b2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Pollution Ban Act -->
+	<!-- PURPOSE: Update icon for Epic - Green's Law to Postpone The Apocalypse -->
+	<ModOp GUID="191689" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/b3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Rentability Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Coal Permit -->
+	<ModOp GUID="191684" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/b4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Rentability Decree -->
+	<!-- PURPOSE: Update icon for Rare - Heavy Coal Permit -->
+	<ModOp GUID="191685" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/b5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Rentability Act -->
+	<!-- PURPOSE: Update icon for Epic - Lord Footprint's Gargantuan Smokestack Act -->
+	<ModOp GUID="191686" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/b6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Reduced Opening Hours Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Noon Closure Act -->
+	<ModOp GUID="191693" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/c1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Reduced Opening Hours Decree -->
+	<!-- PURPOSE: Update icon for Rare - Early Closure Act -->
+	<ModOp GUID="191694" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/c2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Reduced Opening Hours Act -->
+	<!-- PURPOSE: Update icon for Epic - Eagerly's Every-Fifth-Day-a-Half-Day Act -->
+	<ModOp GUID="191695" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/c3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Street Maintenance Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Potholes Decree -->
+	<ModOp GUID="191690" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/c4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Street Maintenance Decree -->
+	<!-- PURPOSE: Update icon for Rare - City Map Act -->
+	<ModOp GUID="191691" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/c5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Street Maintenance Act -->
+	<!-- PURPOSE: Update icon for Epic - Mssr. Fontaine's Street Signage Solution -->
+	<ModOp GUID="191692" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/c6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Curfew -->
+	<!-- PURPOSE: Update icon for Uncommon - Midnight Curfew -->
+	<ModOp GUID="191717" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/d1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Curfew -->
+	<!-- PURPOSE: Update icon for Rare - Evening Curfew -->
+	<ModOp GUID="191718" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/d2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Curfew -->
+	<!-- PURPOSE: Update icon for Epic - Archbishop Stipwick's Stiff-Lipped Curfew -->
+	<ModOp GUID="191719" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/d3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Opening Authorization -->
+	<!-- PURPOSE: Update icon for Uncommon - The Lord's Blessing -->
+	<ModOp GUID="191714" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/d4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Opening Authorization -->
+	<!-- PURPOSE: Update icon for Rare - Sabbath Repeal Law -->
+	<ModOp GUID="191715" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/d5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Opening Authorization -->
+	<!-- PURPOSE: Update icon for Epic - Timothy's Blurry Law of Utter Depravity -->
+	<ModOp GUID="191716" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/d6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Restriction on Research Budget -->
+	<!-- PURPOSE: Update icon for Uncommon - Collegiate Bill -->
+	<ModOp GUID="191723" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/e1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Restriction on Research Budget -->
+	<!-- PURPOSE: Update icon for Rare - High Fees Law -->
+	<ModOp GUID="191724" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/e2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Restriction on Research Budget -->
+	<!-- PURPOSE: Update icon for Epic - Bertie Pinkie-Toff's Edict of Elitism -->
+	<ModOp GUID="191725" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/e3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Subvention for Symposiums -->
+	<!-- PURPOSE: Update icon for Uncommon - Journal of Common Thought -->
+	<ModOp  GUID="191720" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/e4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Subvention for Symposiums -->
+	<!-- PURPOSE: Update icon for Rare - Journal of Popular Thought -->
+	<ModOp GUID="191721" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/e5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Subvention for Symposiums -->
+	<!-- PURPOSE: Update icon for Epic - The Kaleidoscopeum Quarterly Review -->
+	<ModOp GUID="191722" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/e6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small School Subvention -->
+	<!-- PURPOSE: Update icon for Uncommon - School Discipline Charter -->
+	<ModOp GUID="191726" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/f1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium School Subvention -->
+	<!-- PURPOSE: Update icon for Rare - Headteacher's Charter -->
+	<ModOp GUID="191727" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/f2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big School Subvention -->
+	<!-- PURPOSE: Update icon for Epic - Lady Dumbedown's Colossal Class Size Charter -->
+	<ModOp GUID="191728" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/f3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small School Tuition -->
+	<!-- PURPOSE: Update icon for Uncommon - Religious Schooling Charter -->
+	<ModOp GUID="191729" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/f4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium School Tuition -->
+	<!-- PURPOSE: Update icon for Rare - Spartan Schooling Charter -->
+	<ModOp GUID="191730" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/f5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big School Tuition -->
+	<!-- PURPOSE: Update icon for Epic - Lady Cerebellum's Ickle Bickle Classrooms Charter -->
+	<ModOp GUID="191731" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/f6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Taxation -->
+	<!-- PURPOSE: Update icon for Uncommon - Parish Tax Law -->
+	<ModOp GUID="191741" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/g1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Taxation -->
+	<!-- PURPOSE: Update icon for Rare - Church Tax Law -->
+	<ModOp GUID="191742" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/g2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Taxation -->
+	<!-- PURPOSE: Update icon for Epic - Hieromonk Bede's Cheeky Little Tithe Law -->
+	<ModOp GUID="191743" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/g3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Few Celebrations -->
+	<!-- PURPOSE: Update icon for Uncommon - Sunday Best Law -->
+	<ModOp GUID="191738" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/g4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Some Celebrations -->
+	<!-- PURPOSE: Update icon for Rare - Mandatory Mass Law -->
+	<ModOp GUID="191739" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/g5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Many Celebrations -->
+	<!-- PURPOSE: Update icon for Epic - Patriarch Grigor's Calendar of Holy Days -->
+	<ModOp GUID="191740" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/g6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Financial Investment -->
+	<!-- PURPOSE: Update icon for Uncommon - Import Tax Reduction Act -->
+	<ModOp GUID="191732" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/h1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Financial Investment -->
+	<!-- PURPOSE: Update icon for Rare - Goods Duties Reduction Act -->
+	<ModOp GUID="191733" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/h2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Financial Investment -->
+	<!-- PURPOSE: Update icon for Epic - Sir Archie's Royal Minty Printy Thingy -->
+	<ModOp GUID="191734" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/h3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Usury Ban -->
+	<!-- PURPOSE: Update icon for Uncommon - Toll and Loan Rates Increase -->
+	<ModOp GUID="191735" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/h4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Usury Ban -->
+	<!-- PURPOSE: Update icon for Rare - Exchange Rate Increase -->
+	<ModOp GUID="191736" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/h5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Usury Ban -->
+	<!-- PURPOSE: Update icon for Epic - Lord Stringer's Stringent Usury Laws -->
+	<ModOp GUID="191737" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/h6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Hygiene Taxes -->
+	<!-- PURPOSE: Update icon for Uncommon - Saponification Tax -->
+	<ModOp GUID="191747" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/i1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Hygiene Taxes -->
+	<!-- PURPOSE: Update icon for Rare - Lax Water Treatment Law -->
+	<ModOp GUID="191748" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/i2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Hygiene Taxes -->
+	<!-- PURPOSE: Update icon for Epic - Mrs. Beetle's Repulsive Law on Pestilence -->
+	<ModOp GUID="191749" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/i3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Waste Management Funding -->
+	<!-- PURPOSE: Update icon for Uncommon - Graveyard Relocation Measures -->
+	<ModOp GUID="191744" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/i4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Waste Management Funding -->
+	<!-- PURPOSE: Update icon for Rare - Waste Treatment Act -->
+	<ModOp GUID="191745" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/i5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Waste Management Funding -->
+	<!-- PURPOSE: Update icon for Epic - Mr. Slippery's Splendiferous Sewage Proposal -->
+	<ModOp GUID="191746" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/i6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Anti Fire Measures Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Safer Roofs Fund -->
+	<ModOp GUID="191750" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/j1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Anti Fire Measures Decree -->
+	<!-- PURPOSE: Update icon for Rare - Chimney Sweep Charter -->
+	<ModOp GUID="191751" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/j2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Anti Fire Measures Act -->
+	<!-- PURPOSE: Update icon for Epic - Arthur Ramshackle's Grand Reservoir Plans -->
+	<ModOp GUID="191752" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/j3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Money Saving Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Historical Preservation Act -->
+	<ModOp GUID="191753" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/j4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Money Saving Decree -->
+	<!-- PURPOSE: Update icon for Rare - Coal Burner Advertisement -->
+	<ModOp GUID="191754" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/j5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Money Saving Act -->
+	<!-- PURPOSE: Update icon for Epic - Caprice Ltd, The Monopoly On Local Construction -->
+	<ModOp GUID="191755" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/j6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Gathering Prohibition -->
+	<!-- PURPOSE: Update icon for Uncommon - Political Club Dissolution Order -->
+	<ModOp GUID="191759" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/k1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Gathering Prohibition -->
+	<!-- PURPOSE: Update icon for Rare - Demonstration Ban -->
+	<ModOp GUID="191760" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/k2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Gathering Prohibition -->
+	<!-- PURPOSE: Update icon for Epic - A Mighty Martial Law Declaration -->
+	<ModOp GUID="191761" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/k3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Right to Peaceably Assemble -->
+	<!-- PURPOSE: Update icon for Uncommon - Freedom of Association Act -->
+	<ModOp GUID="191756" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/k4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Right to Peaceably Assemble -->
+	<!-- PURPOSE: Update icon for Rare - Right of Protest Act -->
+	<ModOp GUID="191757" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/k5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Right to Peaceably Assemble -->
+	<!-- PURPOSE: Update icon for Epic - The Pulltoddle Freedom of Assembly Act -->
+	<ModOp GUID="191758" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/k6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Mandatory Schooling until 10 -->
+	<!-- PURPOSE: Update icon for Uncommon - Minimum Schooling Act -->
+	<ModOp GUID="191765" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/l1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Mandatory Schooling until 12 -->
+	<!-- PURPOSE: Update icon for Rare - Extended Schooling Act -->
+	<ModOp GUID="191766" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/l2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Mandatory Schooling until 16 -->
+	<!-- PURPOSE: Update icon for Epic - Miss Jorgensen's Exemplary "School-to-16 Proposal" -->
+	<ModOp GUID="191767" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/l3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Minimum Working Age 10 -->
+	<!-- PURPOSE: Update icon for Uncommon - Minimum Working Age 8 Act -->
+	<ModOp GUID="191762" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/l4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Minimum Working Age 8 -->
+	<!-- PURPOSE: Update icon for Rare - Minimum Working Age 6 Act -->
+	<ModOp GUID="191763" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/l5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Minimum Working Age 6 -->
+	<!-- PURPOSE: Update icon for Epic - Von Malching's Minimum Working Age 4 Proposal -->
+	<ModOp GUID="191764" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/l6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Censorship -->
+	<!-- PURPOSE: Update icon for Uncommon - Censored Books Act -->
+	<ModOp GUID="191771" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/m1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Censorship -->
+	<!-- PURPOSE: Update icon for Rare - Taboo Books Act -->
+	<ModOp GUID="191772" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/m2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Censorship -->
+	<!-- PURPOSE: Update icon for Epic - Lady Hunt's Order of Silence -->
+	<ModOp GUID="191773" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/m3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Freedom -->
+	<!-- PURPOSE: Update icon for Uncommon - Freedom of Faith Act -->
+	<ModOp GUID="191768" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/m4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Freedom -->
+	<!-- PURPOSE: Update icon for Rare - Free Press Act -->
+	<ModOp GUID="191769" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/m5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Freedom -->
+	<!-- PURPOSE: Update icon for Epic - Treatise on Freedom of Speech -->
+	<ModOp GUID="191770" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/m6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Alcohol Restriction -->
+	<!-- PURPOSE: Update icon for Uncommon - Teetotalers Manifesto -->
+	<ModOp GUID="191777" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/n1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Alcohol Restriction -->
+	<!-- PURPOSE: Update icon for Rare - Moderation Act -->
+	<ModOp GUID="191778" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/n2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Alcohol Restriction -->
+	<!-- PURPOSE: Update icon for Epic - Ms. Amelia's Essential Prohibition Measures -->
+	<ModOp GUID="191779" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/n3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Alcohol Taxes -->
+	<!-- PURPOSE: Update icon for Uncommon - Small Alcohol Tax -->
+	<ModOp GUID="191783" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/o1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Alcohol Taxes -->
+	<!-- PURPOSE: Update icon for Rare - Moderate Alcohol Tax -->
+	<ModOp GUID="191784" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/o2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Alcohol Taxes -->
+	<!-- PURPOSE: Update icon for Epic - Lord Wainthrop's Booze Taxationations Most Severe! -->
+	<ModOp GUID="191785" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/o3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Reduction of Alcohol Taxes -->
+	<!-- PURPOSE: Update icon for Uncommon - Decreased Alcohol Tax Bylaws -->
+	<ModOp GUID="191780" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/o4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Reduction of Alcohol Taxes -->
+	<!-- PURPOSE: Update icon for Rare - Decreased Alcohol Tax Act -->
+	<ModOp GUID="191781" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/o5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Strong Reduction of Alcohol Taxes -->
+	<!-- PURPOSE: Update icon for Epic - Lord Farquahar's Alcohol Tax Amendment -->
+	<ModOp GUID="191782" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/o6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Inquisition Act -->
+	<!-- PURPOSE: Update icon for Uncommon - Evangeliser's Tracts -->
+	<ModOp GUID="191791" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/p1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Inquisition Act -->
+	<!-- PURPOSE: Update icon for Rare - Excommunication Act -->
+	<ModOp GUID="191792" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/p2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Inquisition Act -->
+	<!-- PURPOSE: Update icon for Epic - Lucius' Long-Lost Doctrine of the Faith -->
+	<ModOp GUID="191793" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/p3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Secularization Act -->
+	<!-- PURPOSE: Update icon for Uncommon - Amnesty on Religious Symbology -->
+	<ModOp GUID="191788" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/p4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Secularization Act -->
+	<!-- PURPOSE: Update icon for Rare - Secularised Bylaws -->
+	<ModOp GUID="191789" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/p5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Secularization Act -->
+	<!-- PURPOSE: Update icon for Epic - Mercier's Separate Church and State Clause -->
+	<ModOp GUID="191790" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/p6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Tax Increase -->
+	<!-- PURPOSE: Update icon for Uncommon - Minor Income Tax Amendment -->
+	<ModOp GUID="191794" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/q1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Tax Increase -->
+	<!-- PURPOSE: Update icon for Rare - Major Income Tax Amendment -->
+	<ModOp GUID="191795" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/q2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Tax Increase -->
+	<!-- PURPOSE: Update icon for Epic - Miserable Max's Brutal Tax Legislation -->
+	<ModOp GUID="191796" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/q3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Tax Reduction -->
+	<!-- PURPOSE: Update icon for Uncommon - Tax Rebates -->
+	<ModOp GUID="191797" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/q4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Tax Reduction -->
+	<!-- PURPOSE: Update icon for Rare - Tax Reduction Legislation -->
+	<ModOp GUID="191798" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/q5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Tax Reduction -->
+	<!-- PURPOSE: Update icon for Epic - Mrs. O'Mara's Marvellous Tax Relief Regulations -->
+	<ModOp GUID="191799" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/q6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Vacation Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Bank Holiday Decree -->
+	<ModOp GUID="191800" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/r1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Vacation Decree -->
+	<!-- PURPOSE: Update icon for Rare - Queen's Birthday Decree -->
+	<ModOp GUID="191801" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/r2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Vacation Act -->
+	<!-- PURPOSE: Update icon for Epic - Bente Jorgensen's Perfectly Paid Vacations Act -->
+	<ModOp GUID="191802" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/r3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Working Hours Extension Circular -->
+	<!-- PURPOSE: Update icon for Uncommon - Statutory Night Work Act -->
+	<ModOp GUID="191803" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/r4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Working Hours Extension Decree -->
+	<!-- PURPOSE: Update icon for Rare - Statutory Twelve Hour Day Act -->
+	<ModOp GUID="191804" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/r5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Working Hours Extension Act -->
+	<!-- PURPOSE: Update icon for Epic - Malching's Back-to-Back Itinerary for Serfs -->
+	<ModOp GUID="191805" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/r6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Amnesty Plan -->
+	<!-- PURPOSE: Update icon for Uncommon - Rioter Amesty Law -->
+	<ModOp GUID="191809" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/n4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Amnesty Plan -->
+	<!-- PURPOSE: Update icon for Rare - Rioter Immunity Act -->
+	<ModOp GUID="191810" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/n5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Amnesty Plan -->
+	<!-- PURPOSE: Update icon for Epic - George Smith's Statute of Universal Collaboration -->
+	<ModOp GUID="191811" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/n6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Tourism Ad Campaign -->
+	<!-- PURPOSE: Update icon for Uncommon - Minor Tourism Campaign -->
+	<ModOp GUID="191812" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/s1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Tourism Ad Campaign -->
+	<!-- PURPOSE: Update icon for Rare - Major Tourism Campaign -->
+	<ModOp GUID="191813" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/s2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Tourism Ad Campaign -->
+	<!-- PURPOSE: Update icon for Epic - Madame Kahina's Executive Tourism Drive -->
+	<ModOp GUID="191814" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/s3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Contraception Regulation -->
+	<!-- PURPOSE: Update icon for Uncommon - The Withdrawal Amendment -->
+	<ModOp GUID="191815" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/s4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Contraception Regulation -->
+	<!-- PURPOSE: Update icon for Rare - Contraception Regulation -->
+	<ModOp GUID="191816" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/s5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Contraception Regulation -->
+	<!-- PURPOSE: Update icon for Epic - Papal Paper of Prenatal Preservation -->
+	<ModOp GUID="191817" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/s6.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Women Rights Act -->
+	<!-- PURPOSE: Update icon for Uncommon - The Subjection of Women -->
+	<ModOp GUID="192482" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/t1.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Women Rights Act -->
+	<!-- PURPOSE: Update icon for Rare - A Vindication of Women's Rights -->
+	<ModOp GUID="192483" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/t2.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Women Rights Act -->
+	<!-- PURPOSE: Update icon for Epic - Millicent's Manifesto of the Suffragette -->
+	<ModOp GUID="192484" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/t3.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Small Women Submission Act -->
+	<!-- PURPOSE: Update icon for Uncommon - A Study For Men -->
+	<ModOp GUID="191821" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/t4.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Medium Women Submission Act -->
+	<!-- PURPOSE: Update icon for Rare - On the Inferior Nature of Women -->
+	<ModOp GUID="191822" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/t5.png</IconFilename>
+	</ModOp>
+	<!-- GROUP: Big Women Submission Act -->
+	<!-- PURPOSE: Update icon for Epic - Lady Hunt's Advice on Being A Patient Spouse -->
+	<ModOp GUID="191823" Path="/Values/Standard/IconFilename" Type="Replace">
+		<IconFilename>data/ui/2kimages/main/3dicons/betterbooks/t6.png</IconFilename>
+	</ModOp>
+
+</ModOps>
