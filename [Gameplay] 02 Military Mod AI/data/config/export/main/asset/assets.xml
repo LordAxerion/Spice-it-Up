@@ -1978,15 +1978,61 @@
     </Asset>
   </ModOp>
 
-  <!-- Replace Diplomacy Asset -->
-  <ModOp Type="replace" GUID='130' Path="/BaseAssetGUID">
-    <BaseAssetGUID>124</BaseAssetGUID>
+  <!-- Replace Diplomacy Asset https://www.nexusmods.com/anno1800/mods/85?tab=posts&BH=0 -->
+  <ModOp Type="replace" GUID='122' Path="/Values/ParticipantMessages/MessageTriggers/DiplomacyOfferThreatRejected/Reactions">
+    <Reactions>
+      <Item>
+        <VectorElement>
+          <InheritedIndex>0</InheritedIndex>
+          <InheritanceMapV2>
+            <Entry>
+              <TemplateName>PaMSy_Base</TemplateName>
+              <Index>0</Index>
+            </Entry>
+          </InheritanceMapV2>
+        </VectorElement>
+      </Item>
+      <Item>
+        <VectorElement>
+          <InheritedIndex>1</InheritedIndex>
+          <InheritanceMapV2>
+            <Entry>
+              <TemplateName>PaMSy_Base</TemplateName>
+              <Index>1</Index>
+            </Entry>
+          </InheritanceMapV2>
+        </VectorElement>
+        <SideEffectValue>-5</SideEffectValue>
+      </Item>
+    </Reactions>
   </ModOp>
-  <ModOp Type="replace" GUID='131' Path="/BaseAssetGUID">
-    <BaseAssetGUID>124</BaseAssetGUID>
-  </ModOp>
-  <ModOp Type="replace" GUID='125' Path="/BaseAssetGUID">
-    <BaseAssetGUID>124</BaseAssetGUID>
+
+  <ModOp Type="replace" GUID='122' Path="/Values/ParticipantMessages/MessageTriggers/TakeOverIslandPossible/Reactions">
+    <Reactions>
+      <Item>
+        <VectorElement>
+          <InheritedIndex>0</InheritedIndex>
+          <InheritanceMapV2>
+            <Entry>
+              <TemplateName>PaMSy_Base</TemplateName>
+              <Index>0</Index>
+            </Entry>
+          </InheritanceMapV2>
+        </VectorElement>
+      </Item>
+      <Item>
+        <VectorElement>
+          <InheritedIndex>1</InheritedIndex>
+          <InheritanceMapV2>
+            <Entry>
+              <TemplateName>PaMSy_Base</TemplateName>
+              <Index>1</Index>
+            </Entry>
+          </InheritanceMapV2>
+        </VectorElement>
+        <SideEffectValue>-5</SideEffectValue>
+      </Item>
+    </Reactions>
   </ModOp>
 
   <!-- BENTE CHANGES -->
@@ -3908,16 +3954,16 @@
                 <ReputationGain>1</ReputationGain>
               </Item>
               <Item>
-                <SuccessChance>20</SuccessChance>
-                <ReputationGain>1</ReputationGain>
+                <SuccessChance>30</SuccessChance>
+                <ReputationGain>2</ReputationGain>
                 <ReputationLoss>-3</ReputationLoss>
               </Item>
               <Item>
-                <SuccessChance>10</SuccessChance>
+                <SuccessChance>20</SuccessChance>
                 <ReputationGain>1</ReputationGain>
                 <ReputationLoss>-2</ReputationLoss>
               </Item>
-              <Item />
+              <Item/>
             </Subdivisions>
           </Flatter>
           <Insult>
@@ -3974,11 +4020,11 @@
                   </InheritanceMapV2>
                 </VectorElement>
                 <SuccessChance>60</SuccessChance>
-                <ReputationGain>1</ReputationGain>
+                <ReputationGain>3</ReputationGain>
               </Item>
               <Item>
                 <SuccessChance>30</SuccessChance>
-                <ReputationGain>1</ReputationGain>
+                <ReputationGain>2</ReputationGain>
               </Item>
               <Item />
             </Subdivisions>

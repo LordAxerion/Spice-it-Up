@@ -1149,7 +1149,7 @@
           <TurnDeceleration>0</TurnDeceleration>
           <TurnMovement>0</TurnMovement>
           <LeaningMaxAngle>-10</LeaningMaxAngle>
-          <ForwardSpeed>7.3</ForwardSpeed>
+          <ForwardSpeed>7.0</ForwardSpeed>
           <WindMinSlowdownFactor>1</WindMinSlowdownFactor>
           <WindMaxSpeedupFactor>1</WindMaxSpeedupFactor>
           <CargoFullFactor>0.8</CargoFullFactor>
@@ -1824,7 +1824,7 @@
           <TurnDeceleration>0</TurnDeceleration>
           <TurnMovement>0</TurnMovement>
           <LeaningMaxAngle>-10</LeaningMaxAngle>
-          <ForwardSpeed>4.4</ForwardSpeed>
+          <ForwardSpeed>4.3</ForwardSpeed>
           <WindMinSlowdownFactor>0.6</WindMinSlowdownFactor>
           <WindSlowdownEffectOnTurningSpeed>0.35</WindSlowdownEffectOnTurningSpeed>
           <WindMaxSpeedupFactor>1.4</WindMaxSpeedupFactor>
@@ -1872,7 +1872,7 @@
           <BaseDamage>600</BaseDamage>
           <AccuracyIncreaseOverDistance>100</AccuracyIncreaseOverDistance>
           <AccuracySpeedDecay>20</AccuracySpeedDecay>
-          <TargetAngleVariation>80</TargetAngleVariation>
+          <TargetAngleVariation>60</TargetAngleVariation>
           <FullVolleyTimeMin>1.4</FullVolleyTimeMin>
           <MuzzleEffectAssets>
             <Item>
@@ -2588,7 +2588,7 @@
         <BaseDamage>700</BaseDamage>
         <AccuracyIncreaseOverDistance>100</AccuracyIncreaseOverDistance>
         <AccuracySpeedDecay>20</AccuracySpeedDecay>
-        <TargetAngleVariation>80</TargetAngleVariation>
+        <TargetAngleVariation>70</TargetAngleVariation>
         <FullVolleyTimeMin>1.4</FullVolleyTimeMin>
         <MuzzleEffectAssets>
           <Item>
