@@ -1,0 +1,32 @@
+<ModOps>
+	<ModOp Type="add" Path="TextExport/Texts">
+		<Text>
+			<GUID>8855003</GUID>
+			<Text>Harbor Warehouse</Text>
+		</Text>
+		<Text>
+			<GUID>8855004</GUID>
+			<Text>Harbor Warehouse</Text>
+		</Text>
+		<Text>
+			<GUID>8855006</GUID>
+			<Text>Depot</Text>
+		</Text>
+		<Text>
+			<GUID>8855007</GUID>
+			<Text>Depot</Text>
+		</Text>
+		<Text>
+			<GUID>8855002</GUID>
+			<Text>Harbor Warehouse</Text>
+		</Text>
+		<Text>
+			<GUID>8850003</GUID>
+			<Text>Increases the island storage. Comes with 2 loading ramps for goods.</Text>
+		</Text>
+		<Text>
+			<GUID>8850002</GUID>
+			<Text>Increases the island storage. Comes with 2 loading ramps for goods.</Text>
+		</Text>
+	</ModOp>
+</ModOps>
