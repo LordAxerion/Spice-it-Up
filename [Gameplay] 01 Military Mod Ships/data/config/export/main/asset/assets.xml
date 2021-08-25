@@ -387,7 +387,7 @@
             </Item>
           </Costs>
           <InfluenceCostType>WarShip</InfluenceCostType>
-          <InfluenceCostPoints>32</InfluenceCostPoints>
+          <InfluenceCostPoints>48</InfluenceCostPoints>
         </Cost>
         <Craftable>
           <CraftingTime>1200000</CraftingTime>
