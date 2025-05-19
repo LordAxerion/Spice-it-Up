@@ -1,0 +1,132 @@
+<ModOps>
+  <ModOp GUID="1510000009" Type="replace" Path="/Values/Exploder/InnerDamageRadius" ModOpID="InnerDamageRadius1" Skip="1">
+    <InnerDamageRadius>2</InnerDamageRadius>
+  </ModOp>
+  <ModOp GUID="1510000009" Type="replace" Path="/Values/Exploder/InnerDamage" ModOpID="InnerDamage1" Skip="1">
+    <InnerDamage>3000</InnerDamage>
+  </ModOp>
+  <ModOp GUID="1510000009" Type="replace" Path="/Values/Exploder/OuterDamageRadius" ModOpID="OuterDamageRadius1" Skip="1">
+    <OuterDamageRadius>4</OuterDamageRadius>
+  </ModOp>
+  <ModOp GUID="1510000009" Type="replace" Path="/Values/Exploder/MinimumDamage" ModOpID="MinimumDamage1" Skip="1">
+    <MinimumDamage>1500</MinimumDamage>
+  </ModOp>
+  <ModOp GUID="1510000010" Type="replace" Path="/Values/ItemAction/ActionCooldown" ModOpID="ActionCooldown1" Skip="1">
+    <ActionCooldown>20000</ActionCooldown>
+  </ModOp>
+  <ModOp GUID="1510000004" Type="replace" Path="/Values/Exploder/InnerDamageRadius" ModOpID="InnerDamageRadius2" Skip="1">
+    <InnerDamageRadius>1</InnerDamageRadius>
+  </ModOp>
+  <ModOp GUID="1510000004" Type="replace" Path="/Values/Exploder/InnerDamage" ModOpID="InnerDamage2" Skip="1">
+    <InnerDamage>2500</InnerDamage>
+  </ModOp>
+  <ModOp GUID="1510000004" Type="replace" Path="/Values/Exploder/OuterDamageRadius" ModOpID="OuterDamageRadius2" Skip="1">
+    <OuterDamageRadius>8</OuterDamageRadius>
+  </ModOp>
+  <ModOp GUID="1510000004" Type="replace" Path="/Values/Exploder/MinimumDamage" ModOpID="MinimumDamage2" Skip="1">
+    <MinimumDamage>1</MinimumDamage>
+  </ModOp>
+  <ModOp GUID="1510000002" Type="replace" Path="/Values/ItemAction/ActionCooldown" ModOpID="ActionCooldown2" Skip="1">
+    <ActionCooldown>30000</ActionCooldown>
+  </ModOp>
+  <ImyaTweaks Title="Torpedo / Planes" />
+  <ImyaExpose Path="self::InnerDamageRadius" ModOpID="InnerDamageRadius1" ExposeID="Torpido Inner Damage Radius" Kind="Slider">
+    <SliderDefinition Min="1" Max="4" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InnerDamage" ModOpID="InnerDamage1" ExposeID="Torpido Inner Damage" Kind="Enum">
+    <FixedValues>
+      <Value>3000</Value>
+      <Value>1000</Value>
+      <Value>1500</Value>
+      <Value>2000</Value>
+      <Value>2500</Value>
+      <Value>3500</Value>
+      <Value>4000</Value>
+      <Value>4500</Value>
+      <Value>5000</Value>
+      <Value>6000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::OuterDamageRadius" ModOpID="OuterDamageRadius1" ExposeID="Torpido Outer Damage Radius" Kind="Slider">
+    <SliderDefinition Min="2" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::MinimumDamage" ModOpID="MinimumDamage1" ExposeID="Torpido Outer Damage" Kind="Enum">
+    <FixedValues>
+      <Value>1500</Value>
+      <Value>500</Value>
+      <Value>750</Value>
+      <Value>1000</Value>
+      <Value>1250</Value>
+      <Value>1750</Value>
+      <Value>2000</Value>
+      <Value>2250</Value>
+      <Value>2500</Value>
+      <Value>3000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::ActionCooldown" ModOpID="ActionCooldown1" ExposeID="Torpido Lunch Cooldown" Kind="Enum">
+    <FixedValues>
+      <Value>20000</Value>
+      <Value>2000</Value>
+      <Value>5000</Value>
+      <Value>10000</Value>
+      <Value>15000</Value>
+      <Value>25000</Value>
+      <Value>30000</Value>
+      <Value>40000</Value>
+      <Value>50000</Value>
+      <Value>60000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::InnerDamageRadius" ModOpID="InnerDamageRadius2" ExposeID="Kamikaze Inner Damage Radius" Kind="Slider">
+    <SliderDefinition Min="1" Max="4" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InnerDamage" ModOpID="InnerDamage2" ExposeID="Kamikaze Inner Damage" Kind="Enum">
+    <FixedValues>
+      <Value>2500</Value>
+      <Value>1000</Value>
+      <Value>1500</Value>
+      <Value>2000</Value>
+      <Value>3000</Value>
+      <Value>3500</Value>
+      <Value>4000</Value>
+      <Value>4500</Value>
+      <Value>5000</Value>
+      <Value>6000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::OuterDamageRadius" ModOpID="OuterDamageRadius2" ExposeID="Kamikaze Damage Radius" Kind="Slider">
+    <SliderDefinition Min="2" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::MinimumDamage" ModOpID="MinimumDamage2" ExposeID="Kamikaze Outer Damage" Kind="Enum">
+    <FixedValues>
+      <Value>1</Value>
+      <Value>500</Value>
+      <Value>750</Value>
+      <Value>1000</Value>
+      <Value>1250</Value>
+      <Value>1500</Value>
+      <Value>1750</Value>
+      <Value>2000</Value>
+      <Value>2250</Value>
+      <Value>2500</Value>
+      <Value>3000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::ActionCooldown" ModOpID="ActionCooldown2" ExposeID="Kamikaze Lunch Cooldown" Kind="Enum">
+    <FixedValues>
+      <Value>30000</Value>
+      <Value>2000</Value>
+      <Value>5000</Value>
+      <Value>10000</Value>
+      <Value>15000</Value>
+      <Value>20000</Value>
+      <Value>25000</Value>
+      <Value>40000</Value>
+      <Value>50000</Value>
+      <Value>60000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <Include File="./torpedo.include.imyatweak.include.xml" />
+  <Include File="./projectile.include.imyatweak.include.xml" />
+</ModOps>

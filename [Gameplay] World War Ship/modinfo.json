@@ -1,0 +1,53 @@
+{
+  "Version": "1.0.0",
+  "ModID": "World_War_Ship",
+  "IncompatibleIds": [],
+  "DeprecateIds": [
+    "first_realease"
+  ],
+  "ModDependencies": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "English": "World War Ship",
+    "Chinese": "World War Ship",
+    "French": "World War Ship",
+    "German": "World War Ship",
+    "Italian": "World War Ship",
+    "Japanese": "World War Ship",
+    "Korean": "World War Ship",
+    "Polish": "World War Ship",
+    "Russian": "World War Ship",
+    "Spanish": "World War Ship",
+    "Taiwanese": "World War Ship"
+  },
+  "Description": {
+    "English": "# World War Ship\n\nworld war ship is a work in progress mod about war in anno 1800 game for now you are able to build\n8 ships from ww1 to ww2 and more will come in the future.\nAnd to build them you have a full new advanced shipyard with crazy details.\n\n## Warnings !\n\nThe mod manager will not install sound for you if you want to\nyou will need to put sound folder into: YourHardDrive:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/games/Anno 1800/data.\n\n## Imcompatibilities\n\nAny increase harbor area mod will not work with world war ship.\n\n## Ships\n\nThe mod is release with 8 new ships. destroyer, corvette, submarine, cruiser, utility ship, pre-dreadnought, yamato, aircraft carrier\n\nAll those ships have their own skills and cost. They will lead your navy into war.\n\nyou can find tutorials and presentation here: https://www.youtube.com/channel/UC2v9Y_XFGdzTORY-xbawRcA.\n\n## Translations\n\nAvailable: English, French.\n",
+    "German": "# World War Ship\n\nworld war ship is a work in progress mod about war in anno 1800 game for now you are able to build\n8 ships from ww1 to ww2 and more will come in the future.\nAnd to build them you have a full new advanced shipyard with crazy details.\n\n## Warnings !\n\nThe mod manager will not install sound for you if you want to\nyou will need to put sound folder into: YourHardDrive:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/games/Anno 1800/data.\n\n## Imcompatibilities\n\nAny increase harbor area mod will not work with world war ship.\n\n## Ships\n\nThe mod is release with 8 new ships. destroyer, corvette, submarine, cruiser, utility ship, pre-dreadnought, yamato, aircraft carrier\n\nAll those ships have their own skills and cost. They will lead your navy into war.\n\nyou can find tutorials and presentation here: https://www.youtube.com/channel/UC2v9Y_XFGdzTORY-xbawRcA.\n\n## Translations\n\nAvailable: English, French.\n",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [],
+  "CreatorName": "S1LV3R-p0tat0",
+  "CreatorContact": "https://discord.com/invite/KtfWbev",
+  "Image": null
+}

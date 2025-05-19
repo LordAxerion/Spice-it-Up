@@ -1,0 +1,8 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>601126110</GUID>
+      			<Text>김나지움</Text>
+		</Text>
+	</ModOp>
+</ModOps>

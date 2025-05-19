@@ -1,0 +1,1074 @@
+<!-- Quuen's Battleship by StreaMRoLLeR -->
+
+<ModOps>
+  <ModOp Type="addNextSibling" GUID='102228'>
+  <Asset>
+    <Template>VisualObject</Template>
+    <Values>
+      <Standard>
+        <GUID>2130000221</GUID>
+        <Name>Shot_Battlecruiser</Name>
+      </Standard>
+      <Mesh>
+        <DefaultSequence>default</DefaultSequence>
+      </Mesh>
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/modgraphics/vehicle/Effects/battleship_shot.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <QuestObject />
+      <SoundEmitter />
+    </Values>
+  </Asset>
+</ModOp>
+
+<ModOp Type="addNextSibling" GUID='102228'>
+  <Asset>
+    <Template>VisualObject</Template>
+    <Values>
+      <Standard>
+        <GUID>2130000223</GUID>
+        <Name>Shot_Battlecruiser BLACK</Name>
+      </Standard>
+      <Mesh>
+        <DefaultSequence>default</DefaultSequence>
+      </Mesh>
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/modgraphics/vehicle/Effects/shot_cannon_battlecruiser_2.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <QuestObject />
+      <SoundEmitter />
+    </Values>
+  </Asset>
+</ModOp>
+
+<ModOp Type="addNextSibling" GUID='102220'>
+  <Asset>
+    <Template>VisualObject</Template>
+    <Values>
+      <Standard>
+        <GUID>2130000222</GUID>
+        <Name>Shot_harbor_05_gun_turret</Name>
+      </Standard>
+      <Mesh>
+        <DefaultSequence>default</DefaultSequence>
+      </Mesh>
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/modgraphics/vehicle/Effects/shot_cannon_tower_05.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <QuestObject />
+      <SoundEmitter />
+    </Values>
+  </Asset>
+</ModOp>
+
+  <ModOp Type="addNextSibling" GUID='102033'>
+    <Asset>
+      <Template>Projectile</Template>
+      <Values>
+        <Projectile>
+          <ProjectileType>Arc</ProjectileType>
+          <ShotHeight>0</ShotHeight>
+          <ShotAngle>4</ShotAngle>
+          <ProjectileSpeed>55</ProjectileSpeed>
+          <DamageType>BigBertha</DamageType>
+        </Projectile>
+        <Standard>
+          <GUID>2130000005</GUID>
+          <Name>Large_Single_Shot_Battle_ship</Name>
+        </Standard>
+        <Mesh/>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/vehicle/projectiles/yamato_shell.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ProjectileSounds>
+            <ProjectileLaunch>
+              <Item>
+                <Sound>2130000006</Sound>
+              </Item>
+            </ProjectileLaunch>
+            <ProjectileImpact>
+              <Item>
+                <Sound>2130000200</Sound>
+              </Item>
+            </ProjectileImpact>
+          </ProjectileSounds>
+        </SoundEmitter>
+        <ProjectileIncident />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- SHIP TORPEDO ITEM -->
+  <ModOp Type="addNextSibling" GUID='192186'>
+                      <Asset>
+                      <Template>ItemSpecialAction</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>2130000001</GUID>
+                          <Name>GNAT</Name>
+                          <IconFilename>data/modgraphics/icons/torpedoicon.dds</IconFilename>
+                          <InfoDescription>2130000004</InfoDescription>
+                        </Standard>
+                        <SpecialAction>
+                          <UseEffectAsset>1</UseEffectAsset>
+                          <MouseEffect>140112</MouseEffect>
+                          <Projectile>2130000002</Projectile>
+                          <BarrageCount>3</BarrageCount>
+                           <BarrageDuration>2000</BarrageDuration>
+                          
+                        </SpecialAction>
+                        <ItemEffect />
+                        <ItemAction>
+                          <ActionTarget>501575</ActionTarget>
+                          <ActionDistance>200</ActionDistance>
+                          <ActionCooldown>45000</ActionCooldown>
+                          <ActionRadius>2</ActionRadius>
+                          <IsDestroyedAfterCooldown>0</IsDestroyedAfterCooldown>
+                          <Charges>3</Charges>
+                          <ActionDuration>2000</ActionDuration>
+                          <ActiveBuff>193240</ActiveBuff>
+                          <ActionDescription>22097</ActionDescription>
+                          <CanEndItemAction>0</CanEndItemAction>
+                          <StopMovementOnInteraction>0</StopMovementOnInteraction>
+                        </ItemAction>
+                        <Item>
+                          <Allocation>Warship</Allocation>
+                          <MaxStackSize>5</MaxStackSize>
+                          <Rarity>Legendary</Rarity>
+                          <HasAction>1</HasAction>
+                          <TradePrice>5000</TradePrice>
+                        </Item>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>G7es Zaunkonig</Text>
+                              <Status>Exported</Status>
+                            </English>
+                          </LocaText>
+                          <LineID>29565</LineID>
+                        </Text>
+                        <ExpeditionAttribute>
+                          <BaseMorale>0</BaseMorale>
+                          <ExpeditionAttributes>
+                            <Item>
+                              <Attribute>Might</Attribute>
+                              <Amount>40</Amount>
+                            </Item>
+                          </ExpeditionAttributes>
+                          <ItemDifficulties>Average;Hard</ItemDifficulties>
+                          <FluffText>19557</FluffText>
+                        </ExpeditionAttribute>
+                        <Locked>
+                          <DefaultLockedState>0</DefaultLockedState>
+                        </Locked>
+                        <CraftableItem />
+                      </Values>
+                    </Asset>
+                  </ModOp>
+    <!-- SHIP ENGINE  -->
+  <ModOp Type="addNextSibling" GUID='191837'>
+    <Asset>
+                      <Template>VehicleBuff</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>2130000330</GUID>
+                          <Name>BEST COVER YOUR EARS</Name>
+                          <IconFilename>data/modgraphics/icons/bismarkengine.dds</IconFilename>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>BEST COVER YOUR EARS !</Text>
+                              <Status>Exported</Status>
+                            </English>
+                          </LocaText>
+                          <LineID>26396</LineID>
+                        </Text>
+                        <VehicleUpgrade>
+                          <ForwardSpeedUpgrade>
+                            <Value>40</Value>
+                            <Percental>1</Percental>
+                          </ForwardSpeedUpgrade>
+                          <IgnoreWeightFactorUpgrade>
+                            <Value>100</Value>
+                            <Percental>1</Percental>
+                          </IgnoreWeightFactorUpgrade>
+                        </VehicleUpgrade>
+                        <Buff />
+                        <AttackerUpgrade />
+                        <AttackableUpgrade />
+                        <ProjectileUpgrade />
+                        <TradeShipUpgrade />
+                        <UpgradeList />
+                        <ItemEffect />
+                        <DivingBellUpgrade />
+                      </Values>
+                    </Asset>
+                    </ModOp>
+
+          <!-- SHIP ENGINE MAIN  -->
+            <ModOp Type="addNextSibling" GUID='191834'>
+                    <Asset>
+                      <Template>ActiveItem</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>2130000331</GUID>
+                          <Name>Multiple Expansion Steam Engine</Name>
+                          <IconFilename>data/modgraphics/icons/bismarkengine.dds</IconFilename>
+                          <InfoDescription>2130000334</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Multiple Expansion Steam Engine</Text>
+                              <Status>Exported</Status>
+                            </English>
+                          </LocaText>
+                          <LineID>26786</LineID>
+                        </Text>
+                        <Item>
+                          <Allocation>SteamShip</Allocation>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>Legendary</Rarity>
+                          <HasAction>1</HasAction>
+                          <TradePrice>5000</TradePrice>
+                        </Item>
+                        <Cost />
+                        <ItemAction>
+                          <ActionCooldown>45000</ActionCooldown>
+                          <ActionDuration>15000</ActionDuration>
+                          <ActiveBuff>2130000330</ActiveBuff>
+                          <ActionDescription>2130000332 </ActionDescription>
+                          <CanEndItemAction>0</CanEndItemAction>
+                          <StopMovementOnInteraction>0</StopMovementOnInteraction>
+                        </ItemAction>
+                        <ExpeditionAttribute>
+                          <BaseMorale>0</BaseMorale>
+                          <ExpeditionAttributes>
+                            <Item>
+                              <Attribute>Navigation</Attribute>
+                              <Amount>40</Amount>
+                            </Item>
+                          </ExpeditionAttributes>
+                          <ItemDifficulties>Average;Hard</ItemDifficulties>
+                          <FluffText>19694</FluffText>
+                        </ExpeditionAttribute>
+                        <SpecialAction />
+                        <Locked />
+                        <CraftableItem />
+                      </Values>
+                    </Asset>
+                  </ModOp>
+
+           <!--ENGINE TEXT-->
+            <ModOp Type="addNextSibling" GUID='20071'>
+                       <Asset>
+                          <Template>Text</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>2130000332</GUID>
+                              <Name>ENGINE TEXT</Name>
+                            </Standard>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>When activated</Text>
+                                  <Status>Exported</Status>
+                                </English>
+                              </LocaText>
+                              <LineID>28951</LineID>
+                            </Text>
+                          </Values>
+                        </Asset>
+                        </ModOp>
+
+            <!--ENGINE TEXT-->
+             <ModOp Type="addNextSibling" GUID='19694'>
+                        <Asset>
+                              <Template>Text</Template>
+                              <Values>
+                                <Standard>
+                                  <GUID>2130000334</GUID>
+                                  <Name>VROOM VROOm</Name>
+                                </Standard>
+                                <Text>
+                                  <LocaText>
+                                    <English>
+                                      <Text>VROM VROM</Text>
+                                      <Status>Exported</Status>
+                                    </English>
+                                  </LocaText>
+                                  <LineID>25584</LineID>
+                                </Text>
+                              </Values>
+                            </Asset>
+                            </ModOp>
+
+      <!-- TORPEDO ROCKET VALUES -->
+   <ModOp Type="replace" GUID='192187'>
+    <Asset>
+                    <Template>ExplodingProjectile</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2130000002</GUID>
+                      <Name>TorpedoProjectile_A</Name>
+                    </Standard>
+                    <Projectile>
+                      <ShotHeight>0.5</ShotHeight>
+                      <ProjectileSpeed>2</ProjectileSpeed>
+                    <Effectivities>
+                        <Item>
+                          <GUID>1404</GUID>
+                          <Factor>2,00</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>1398</GUID>
+                          <Factor>0.4</Factor>
+                        </Item>
+                      </Effectivities>
+                      <StatusEffects>
+                        <Item>
+                          <StatusEffectChain>
+                            <Item>
+                              <StatusEffect>1511</StatusEffect>
+                              <StatusDuration>10000</StatusDuration>
+                            </Item>
+                            <Item>
+                              <StatusEffect>1513</StatusEffect>
+                              <StatusDuration>30000</StatusDuration>
+                            </Item>
+                            <Item>
+                              <StatusEffect>1514</StatusEffect>
+                              <StatusDuration>90000</StatusDuration>
+                            </Item>
+                          </StatusEffectChain>
+                        </Item>
+                      </StatusEffects>
+                      <StatusEffectChainDescription>4417</StatusEffectChainDescription>
+                      <DamageType>Torpedo</DamageType>
+                    </Projectile>
+                    <Mesh />
+                    <Object>
+                      <Variations>
+                        <Item>
+                          <Filename>data/graphics/effects/military/projectiles/projectile_torpedo_02.cfg</Filename>
+                        </Item>
+                      </Variations>
+                    </Object>
+                    <Exploder>
+                      <InnerDamageRadius>2</InnerDamageRadius>
+                      <InnerDamage>500</InnerDamage>
+                      <DebrisForceY>0</DebrisForceY>
+                      <DebrisCount>0</DebrisCount>
+                      <OuterDamageRadius>4</OuterDamageRadius>
+                      <MinimumDamage>400</MinimumDamage>
+                      <HitSuccessNotification>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <Action />
+                          <ActionNotification />
+                        </Values>
+                      </HitSuccessNotification>
+                      <HitFailNotification>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <Action />
+                          <ActionNotification />
+                        </Values>
+                      </HitFailNotification>
+                    </Exploder>
+                    <SoundEmitter>
+                      <ProjectileSounds>
+                        <ProjectileLaunch>
+                          <Item>
+                            <Sound>235861</Sound>
+                          </Item>
+                        </ProjectileLaunch>
+                        <ProjectileImpact>
+                          <Item>
+                            <Sound>235860</Sound>
+                          </Item>
+                        </ProjectileImpact>
+                      </ProjectileSounds>
+                    </SoundEmitter>
+                    <UpgradeList />
+                    <ProjectileIncident />
+                  </Values>
+                </Asset>
+    </ModOp>
+   
+  <!-- Add Battle Ship -->
+  <ModOp Type="addNextSibling" GUID='100442'>
+    <Asset>
+      <Template>WarShip</Template>
+      <Values>
+        <Standard>
+          <GUID>2130000008</GUID>
+          <Name>ROYAL BATTLESHIP</Name>
+          <IconFilename>data/modgraphics/icons/bismarklogo.png</IconFilename>
+          <InfoDescription>2130000012</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/vehicle/battle_cruiser/battle_cruiser.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh>
+          <MeshPlacement>OnWaterSlope</MeshPlacement>
+        </Mesh>
+        <Selection>
+          <ObjectmenuHeaderImage>data/ui/2kimages/main/3dicons/icon_ship.png</ObjectmenuHeaderImage>
+          <MultiSelectable>1</MultiSelectable>
+        </Selection>
+        <Walking>
+          <ShortenSailsAfter>0</ShortenSailsAfter>
+          <ReservationLength>16</ReservationLength>
+          <ReservationWidth>6</ReservationWidth>
+          <PathPlannerLayer>Water</PathPlannerLayer>
+          <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+          <TurnAroundRadius>16</TurnAroundRadius>
+          <Acceleration>0.6</Acceleration>
+          <Deceleration>0.9</Deceleration>
+          <TurnRadius>10</TurnRadius>
+          <TurnSpeed>25</TurnSpeed>
+          <TurnRadius>16</TurnRadius>
+          <TurnDeceleration>0.1</TurnDeceleration>
+          <TurnMovement>0</TurnMovement>
+          <LeaningMaxAngle>-15</LeaningMaxAngle>
+          <ForwardSpeed>4</ForwardSpeed>
+          <WindMinSlowdownFactor>1</WindMinSlowdownFactor>
+          <WindMaxSpeedupFactor>1</WindMaxSpeedupFactor>
+          <CargoFullFactor>0.9</CargoFullFactor>
+          <DamageFullFactor>0.9</DamageFullFactor>
+          <MinSlowdownFactor>0.75</MinSlowdownFactor>
+          <SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+          <CurveSegmentDensity>High</CurveSegmentDensity>
+        </Walking>
+        <Text>
+          <LocaText>
+            <English>
+              <Text> Battle Ship</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>14857</LineID>
+        </Text>
+        <CommandQueue>
+          <FormationPriority>1</FormationPriority>
+          <MilitaryShipPoints>12</MilitaryShipPoints>
+          <PriorityShipList>1</PriorityShipList>
+          <ShipUniqueType>GreatEastern</ShipUniqueType>
+        </CommandQueue>
+        <Drifting>
+          <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+          <Length>15</Length>
+          <Width>2.5</Width>
+          <FactorMovement>0.2</FactorMovement>
+          <FactorRotation>0.35</FactorRotation>
+        </Drifting>
+        <Collector />
+        <Attackable>
+          <MaximumHitPoints>18000</MaximumHitPoints>
+          <HPBarOffset>8.5</HPBarOffset>
+          <AlertRange>200</AlertRange>
+          <AccuracyWidth>12</AccuracyWidth>
+          <ArmorType>HeavyArmor</ArmorType>
+          <SelfHealPerHealTick>8</SelfHealPerHealTick>
+          <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+        </Attackable>
+        <Attacker>
+          <AttackRange>100</AttackRange>
+          <LineOfSightRange>120</LineOfSightRange>
+          <ReloadTime>80</ReloadTime>
+          <ProjectileAsset>2130000005</ProjectileAsset>
+          <ProjectileCount>8</ProjectileCount>
+          <BaseDamage>650</BaseDamage>
+          <Turrets>
+            <Item>
+              <TurnSpan>275</TurnSpan>
+              <TurretCfg>data/modgraphics/vehicle/battle_cruiser/bismarkgun.cfg</TurretCfg>
+            </Item>
+            <Item>
+              <TurnSpan>275</TurnSpan>
+              <TurretCfg>data/modgraphics/vehicle/battle_cruiser/bismarkgun.cfg</TurretCfg>
+            </Item>
+            <Item>
+              <TurnSpan>275</TurnSpan>
+              <TurretCfg>data/modgraphics/vehicle/battle_cruiser/bismarkgun.cfg</TurretCfg>
+            </Item>
+             <Item>
+              <TurnSpan>275</TurnSpan>
+              <TurretCfg>data/modgraphics/vehicle/battle_cruiser/bismarkgun.cfg</TurretCfg>
+            </Item>
+           </Turrets>
+          <AccuracyIncreaseOverDistance>100</AccuracyIncreaseOverDistance>
+          <AccuracySpeedDecay>0</AccuracySpeedDecay>
+          <ShootingTracking>TurretFixed</ShootingTracking>
+          <FullVolleyTimeMax>2</FullVolleyTimeMax>
+          <FullVolleyTimeMin>1</FullVolleyTimeMin>
+          <MuzzleEffectAssets>
+            <Item>
+              <MuzzleEffectAsset>2130000221</MuzzleEffectAsset>
+            </Item>
+            <Item>
+              <MuzzleEffectAsset>2130000223</MuzzleEffectAsset>
+            </Item>
+          </MuzzleEffectAssets>
+          <AccuracyByDistance>
+            <Item>
+              <AccuracyByDistancePair>
+                <CorrespondingAccuracy>100</CorrespondingAccuracy>
+              </AccuracyByDistancePair>
+            </Item>
+            <Item>
+              <AccuracyByDistancePair>
+                <EnemyDistanceRelToAttackRange>20</EnemyDistanceRelToAttackRange>
+                <CorrespondingAccuracy>80</CorrespondingAccuracy>
+              </AccuracyByDistancePair>
+            </Item>
+            <Item>
+              <AccuracyByDistancePair>
+                <EnemyDistanceRelToAttackRange>40</EnemyDistanceRelToAttackRange>
+                <CorrespondingAccuracy>80</CorrespondingAccuracy>
+              </AccuracyByDistancePair>
+            </Item>
+            <Item>
+              <AccuracyByDistancePair>
+                <EnemyDistanceRelToAttackRange>70</EnemyDistanceRelToAttackRange>
+                <CorrespondingAccuracy>90</CorrespondingAccuracy>
+              </AccuracyByDistancePair>
+            </Item>
+            <Item>
+              <AccuracyByDistancePair>
+                <EnemyDistanceRelToAttackRange>100</EnemyDistanceRelToAttackRange>
+                <CorrespondingAccuracy>100</CorrespondingAccuracy>
+              </AccuracyByDistancePair>
+            </Item>
+          </AccuracyByDistance>
+          <WeaponIcon>2130000122</WeaponIcon>
+        </Attacker>
+        <MinimapToken>
+          <TokenAsset>2001947</TokenAsset>
+          <StrategicMapAsset>501018</StrategicMapAsset>
+        </MinimapToken>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>238314</Sound>
+            </Item>
+          </DestroySounds>
+          <VehicleSounds>
+            <MovementStart>
+              <Item>
+                <Sound>216009</Sound>
+              </Item>
+            </MovementStart>
+          </VehicleSounds>
+        </SoundEmitter>
+        <UpgradeList />
+        <QuestObject />
+        <Infolayer />
+        <ItemContainer>
+          <SocketCount>4</SocketCount>
+          <SocketAllocation>Ship;SteamShip;Warship</SocketAllocation>
+          <SlotCount>4</SlotCount>
+            <InitSocketItems>
+              <Item>
+                <Item>2130000001</Item> <!--Torpedo Barrage -->
+                <StackSize>1</StackSize>
+              </Item>
+              <Item>
+                <Item>2130000331</Item> 
+                <StackSize>1</StackSize>
+              </Item>
+            </InitSocketItems>
+        </ItemContainer>
+        <FeedbackController />
+        <Draggable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>300</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010224</Ingredient>
+              <Amount>75</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010223</Ingredient>
+              <Amount>200</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010204</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>WarShip</InfluenceCostType>
+          <InfluenceCostPoints>100</InfluenceCostPoints>
+        </Cost>
+        <Craftable>
+          <CraftingTime>500000</CraftingTime>
+        </Craftable>
+        <TradeRouteVehicle />
+        <Locked />
+        <Nameable />
+        <MetaPersistent />
+        <ExpeditionAttribute>
+          <BaseMorale>80</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Might</Attribute>
+              <Amount>80</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>Navigation</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkMilitaryShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkSteamShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+        <ShipMaintenance>
+          <Maintenance>3500</Maintenance>
+        </ShipMaintenance>
+        <Sellable>
+          <Baseprice>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>WarShip</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>1600000</Amount>
+            </Item>
+          </Baseprice>
+        </Sellable>
+        <Stance />
+        <Rentable />
+        <WorldMapSound />
+        <Pausable />
+        <ShipIncident />
+        <SoundEmitterCommandBarks>
+          <BarkMapping>
+            <Selection>
+              <AudioPool>700084</AudioPool>
+            </Selection>
+            <AttackCommand>
+              <AudioPool>700085</AudioPool>
+            </AttackCommand>
+            <MoveCommand>
+              <AudioPool>700083</AudioPool>
+            </MoveCommand>
+            <SelectionDamaged>
+              <AudioPool>700110</AudioPool>
+            </SelectionDamaged>
+            <EscortCommand>
+              <AudioPool>700115</AudioPool>
+            </EscortCommand>
+            <PatrolCommand>
+              <AudioPool>700114</AudioPool>
+            </PatrolCommand>
+          </BarkMapping>
+        </SoundEmitterCommandBarks>
+      </Values>
+    </Asset>
+  </ModOp>
+  
+  <ModOp Type="addNextSibling" GUID='2190'>
+  <Asset>
+    <Template>Text</Template>
+    <Values>
+      <Standard>
+        <GUID>2130000122</GUID>
+        <Name>Gun Icon</Name>
+        <IconFilename>data/modgraphics/icons/bismarkicon.png</IconFilename>
+      </Standard>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Boom</Text>
+            <Status>Exported</Status>
+          </English>
+        </LocaText>
+        <LineID>57322</LineID>
+      </Text>
+    </Values>
+  </Asset>
+</ModOp>
+
+  <!-- Unlock Action -->
+  <ModOp Type="addNextSibling" GUID='141008'>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2130000000</GUID>
+          <Name>TRIGGER Battle Ship</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2130000008</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+<!-- Add to Steam Shipyard -->
+   <ModOp Type="addNextSibling" GUID='1010521' Path="/Values/Shipyard/AssemblyOptions/Item[Vehicle = '100853']">
+    <Item>
+      <Vehicle>2130000008</Vehicle>
+    </Item>
+  </ModOp>
+
+   
+
+  <!-- Asset Pool (Player Ships) -->
+  <ModOp Type="add" GUID='101639' Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>2130000008</Asset>
+    </Item>
+  </ModOp>
+
+  <!-- Item Effect Pool -->
+  <!-- Military Ships -->
+  <ModOp Type="add" GUID='190608' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2130000008</GUID>
+    </Item>
+  </ModOp>
+  <!-- All Ships -->
+  <ModOp Type="add" GUID='191454' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2130000008</GUID>
+    </Item>
+  </ModOp>
+  <!-- Steamships -->
+  <ModOp Type="add" GUID='191456' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2130000008</GUID>
+    </Item>
+  </ModOp>
+  <!-- Warships -->
+  <ModOp Type="add" GUID='191458' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2130000008</GUID>
+    </Item>
+  </ModOp>
+
+  
+
+  
+
+  <!-- PLAY FOR PROJECTILE 1 -->
+  <ModOp Type = "addNextSibling" GUID = '223499'>
+    <Asset>
+      <Template>Audio</Template>
+      <Values>
+        <Standard>
+          <GUID>2130000006</GUID>
+          <Name>Play_shoot</Name>
+        </Standard>
+        <Audio>
+          <DurationLanguageArray>
+            <English>
+              <DurationMinimum>5000</DurationMinimum>
+              <DurationMaximum>9000</DurationMaximum>
+            </English>
+          </DurationLanguageArray>
+          <MaxAttenuation>100</MaxAttenuation>
+          <ClusterEvent>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <AudioLink />
+            </Values>
+          </ClusterEvent>
+        </Audio>
+        <WwiseStandard>
+          <WwiseID>3198798649</WwiseID>
+        </WwiseStandard>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <!-- SOUNDBANKS MAIN -->
+  <ModOp Type="addNextSibling" GUID='234859'>
+    <Asset>
+      <Template>SoundBank</Template>
+      <Values>
+        <Standard>
+          <GUID>2130000007</GUID>
+          <Name>Soundbank</Name>
+          <IconFilename>test_data/graphics/wwise_icons/soundbank.png</IconFilename>
+        </Standard>
+        <SoundBank />
+        <WwiseStandard>
+          <WwiseID>56211242</WwiseID>
+        </WwiseStandard>
+      </Values>
+    </Asset>
+  </ModOp>
+  
+  <ModOp Type="add" GUID='9899002' Path="/Values/RequiredSoundBanks/SoundBanks">
+    <Item>
+      <Bank>2130000007</Bank>
+    </Item>
+  </ModOp>
+
+  <!-- PLAY FOR IMPACT PLAY 1 -->
+  <ModOp Type = "addNextSibling" GUID = '223499'>
+    <Asset>
+      <Template>Audio</Template>
+      <Values>
+        <Standard>
+          <GUID>2130000200</GUID>
+          <Name>Play_IMPACT</Name>
+        </Standard>
+        <Audio>
+          <DurationLanguageArray>
+            <English>
+              <DurationMinimum>5000</DurationMinimum>
+              <DurationMaximum>5000</DurationMaximum>
+            </English>
+          </DurationLanguageArray>
+          <MaxAttenuation>100</MaxAttenuation>
+          <ClusterEvent>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <AudioLink />
+            </Values>
+          </ClusterEvent>
+        </Audio>
+        <WwiseStandard>
+          <WwiseID>2018294890</WwiseID>
+        </WwiseStandard>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+                       
+
+                               <!-- Define Newspaper Article -->
+
+<ModOp GUID="141228" Type="addNextSibling">
+    <Asset>
+      <Template>NewspaperSpecialEditionArticle</Template>
+      <Values>
+        <Standard>
+          <GUID>2140000000</GUID>
+          <Name>Help is Arrived</Name>
+        </Standard>
+        <NewspaperSpecialEditionArticle>
+          <SpecialEditionHeadline>2140000001</SpecialEditionHeadline>
+          <SpecialEditionSubline>2140000002</SpecialEditionSubline>
+          <SpecialEditionImage>2140000003</SpecialEditionImage>
+        </NewspaperSpecialEditionArticle>
+      </Values>
+    </Asset>
+</ModOp>
+
+<!-- Define Newspaper Article Picture -->
+
+<ModOp GUID="141228" Type="addNextSibling">
+    <Asset>
+      <Template>NewspaperImage</Template>
+      <Values>
+        <Standard>
+          <GUID>2140000003</GUID>
+          <Name>Help is Arrived</Name>
+        </Standard>
+        <NewspaperImage>
+          <Size>
+            <Small>
+              <Image>data/modgraphics/icons/bismarknewspaper.dds</Image>
+            </Small>
+            <Medium>
+              <Image>data/modgraphics/icons/bismarknewspaper.dds</Image>
+            </Medium>
+            <Big>
+              <Image>data/modgraphics/icons/bismarknewspaper.dds</Image>
+            </Big>
+          </Size>
+          <SideNotificationImage>data/modgraphics/icons/bismarknewspaper.dds</SideNotificationImage>
+        </NewspaperImage>
+      </Values>
+    </Asset>
+</ModOp>
+
+<!-- Define Newspaper Article Trigger -->
+
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2140000004</GUID>
+          <Name>BISMARK NEWSPAPER</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_doubledecker_02.png</IconFilename>
+        </Standard>
+        <Trigger>
+ 	        <TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition/>
+							<ConditionPlayerCounter>
+                                        <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                        <Context>15000001</Context>
+                                        <CounterAmount>1</CounterAmount>
+                                      </ConditionPlayerCounter>
+						</Values>
+			</TriggerCondition>
+            <TriggerActions>            
+                        <Item>
+							<TriggerAction>
+								<Template>ActionDelayedActions</Template>
+								<Values>
+									<Action/>
+									<ActionDelayedActions>
+										<ExecutionDelay>20000</ExecutionDelay> <!-- time in ms from event until the article is published -->
+										<DelayedActions>
+											<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+											<Values>
+												<ActionList>
+													<Actions>
+														<Item>
+															<Action>
+																<Template>ActionForceNewspaper</Template>
+																<Values>
+																	<Action/>
+																	<ActionForceNewspaper>
+																		<Articles>
+																			<Item>
+																				<Article>2140000000</Article>
+																			</Item>
+																		</Articles>
+																		<OpenNewspaperUI>1</OpenNewspaperUI>
+																		<OpenNewspaperType>SpecialEdition</OpenNewspaperType>
+																	</ActionForceNewspaper>
+																</Values>
+															</Action>
+														</Item>
+													</Actions>
+												</ActionList>
+											</Values>
+										</DelayedActions>
+									</ActionDelayedActions>
+								</Values>
+							</TriggerAction>
+						</Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Define Newspaper SUBLINE -->
+                     <ModOp GUID="11185" Type="addNextSibling">
+                                     <Asset>
+                                      <Template>Text</Template>
+                                      <Values>
+                                        <Standard>
+                                          <GUID>2140000002</GUID>
+                                          <Name>RQElder_TallPoppy_SL</Name>
+                                        </Standard>
+                                        <Text>
+                                          <LocaText>
+                                            <English>
+                                              <Text>Partisans of power-craving elder strike riot in protest of leader's disgrace. Reliable source comments 'grey hair everywhere, torn robes ... Never knew politics to be this much fun!'</Text>
+                                              <Status>Exported</Status>
+                                            </English>
+                                          </LocaText>
+                                          <LineID>42962</LineID>
+                                        </Text>
+                                      </Values>
+                                    </Asset>
+                                    </ModOp>
+
+                     <!-- Define Newspaper HEADLINE-->
+                      <ModOp GUID="11184" Type="addNextSibling">
+                        <Asset>
+                          <Template>Text</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>2140000001</GUID>
+                              <Name>HL - PyrphoriansContact</Name>
+                            </Standard>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>THE PYRPHORIAN EVIL!</Text>
+                                  <Status>Exported</Status>
+                                </English>
+                              </LocaText>
+                              <LineID>23504</LineID>
+                            </Text>
+                          </Values>
+                        </Asset>
+                        </ModOp>
+</ModOps>

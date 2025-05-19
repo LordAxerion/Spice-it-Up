@@ -1,0 +1,27 @@
+# World War Ship
+
+world war ship is a work in progress mod about war in anno 1800 game for now you are able to build 8 ships from ww1 to ww2 and more will come in the future.
+And to build them you have a full new advanced shipyard with crazy details.
+
+## Requirements
+
+None.
+
+## Gameplay
+
+### World War Ship
+
+The mod is release with 8 new ships. destroyer, corvette, submarine, cruiser, utility ship, pre-dreadnought, yamato, aircraft carrier
+
+All those ships have their own skills and cost. They will lead your navy into war. you can find tutorials and presentation here: https://www.youtube.com/channel/UC2v9Y_XFGdzTORY-xbawRcA.
+
+## Other
+
+### 1.0.0
+
+- First release
+
+## Translations
+
+Available: English, French
+

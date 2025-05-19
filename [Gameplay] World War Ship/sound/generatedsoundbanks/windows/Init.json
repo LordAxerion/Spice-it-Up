@@ -1,0 +1,25 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Alexandre\\Documents\\WwiseProjects\\casse les couilles\\",
+   "SourceFilesRoot": "C:\\Users\\Alexandre\\Documents\\WwiseProjects\\casse les couilles\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Alexandre\\Documents\\WwiseProjects\\casse les couilles\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Alexandre\\Documents\\WwiseProjects\\casse les couilles\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "Hash": "1267983648",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

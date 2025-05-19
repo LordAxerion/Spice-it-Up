@@ -1,0 +1,407 @@
+<ModOps>
+    <ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+        <Template>
+            <Name>UtilityShip</Name>
+            <Properties>
+                <Standard />
+                <Object>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+                </Object>
+                <Mesh>
+                    <ObjectPosition>Dynamic</ObjectPosition>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <Selection>
+                    <GUIType>Vehicle</GUIType>
+                    <SelectionPriority>5</SelectionPriority>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <InteractionDistance>2</InteractionDistance>
+                    <AllowedDragType>ItemSocket;CargoProductStack;CargoItemStack;StorageProductStack;StorageItemStack;SharedTransferItem</AllowedDragType>
+                    <Colors>
+                        <SelectionColorType>ParticipantColor</SelectionColorType>
+                        <SelectionColor>0</SelectionColor>
+                        <SelectionBorderColor>2030043136</SelectionBorderColor>
+                        <PickingColorType>ParticipantColor</PickingColorType>
+                        <PickingColor>0</PickingColor>
+                        <PickingBorderColor>503316480</PickingBorderColor>
+                        <CoopSelectionColorType>PropertySelectionColor</CoopSelectionColorType>
+                        <CoopSelectionColor>0</CoopSelectionColor>
+                        <CoopSelectionBorderColor>2038464640</CoopSelectionBorderColor>
+                        <CoopPickingColorType>PropertySelectionColor</CoopPickingColorType>
+                        <CoopPickingColor>0</CoopPickingColor>
+                        <CoopPickingBorderColor>511737984</CoopPickingBorderColor>
+                    </Colors>
+                </Selection>
+                <Walking>
+                    <ReservationLength>3</ReservationLength>
+                    <ReservationWidth>1</ReservationWidth>
+                    <TurnAroundRadius>3</TurnAroundRadius>
+                    <TurnSpeed>45</TurnSpeed>
+                    <TurnSpeedInPlace>20</TurnSpeedInPlace>
+                    <TurnMovement>50</TurnMovement>
+                    <ForwardSpeed>5</ForwardSpeed>
+                    <WindMinSlowdownFactor>0.8</WindMinSlowdownFactor>
+                    <WindMaxSpeedupFactor>1.33</WindMaxSpeedupFactor>
+                </Walking>
+                <Text />
+                <CommandQueue>
+                    <IsPlayerControllableVehicle>1</IsPlayerControllableVehicle>
+                    <FollowRadius>10</FollowRadius>
+                    <InsecurityAttractiveness>-10</InsecurityAttractiveness>
+                </CommandQueue>
+                <Drifting />
+                <Collector>
+                    <MaxDragShips>1</MaxDragShips>
+                </Collector>
+                <Attackable>
+                    <SelfHealPerHealTick>300</SelfHealPerHealTick>
+                </Attackable>
+                <Attacker>
+                    <TargetAngleVariation>30</TargetAngleVariation>
+                    <AttackRangeApproachPercentage>0.85</AttackRangeApproachPercentage>
+                    <ProjectileAsset>100501</ProjectileAsset>
+                    <TurretExplosionEffectAsset>101994</TurretExplosionEffectAsset>
+                    <MuzzleEffectAssets>
+                        <Item>
+                            <MuzzleEffectAsset>101958</MuzzleEffectAsset>
+                        </Item>
+                    </MuzzleEffectAssets>
+                    <AccuracyByDistance>
+                        <Item />
+                        <Item>
+                            <AccuracyByDistancePair>
+                                <EnemyDistanceRelToAttackRange>100</EnemyDistanceRelToAttackRange>
+                                <CorrespondingAccuracy>50</CorrespondingAccuracy>
+                            </AccuracyByDistancePair>
+                        </Item>
+                    </AccuracyByDistance>
+                </Attacker>
+                <MinimapToken />
+                <SoundEmitter>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>203983</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <UpgradeList />
+                <QuestObject />
+                <Infolayer />
+                <ItemContainer>
+                    <SocketAllocation>Ship;SailShip;Warship</SocketAllocation>
+                    <CanStoreProducts>1</CanStoreProducts>
+                </ItemContainer>
+                <FeedbackController />
+                <Draggable>
+                    <DraggableDistanceFromDragger>6</DraggableDistanceFromDragger>
+                    <DraggableOnDrag>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </DraggableOnDrag>
+                    <DraggableOnDrop>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </DraggableOnDrop>
+                    <DraggableFeedbackOnDrag>2001897</DraggableFeedbackOnDrag>
+                    <DraggableFeedbackOnDrop>2001898</DraggableFeedbackOnDrop>
+                    <DraggableDropInfoLayer>2001942</DraggableDropInfoLayer>
+                </Draggable>
+                <Cost />
+                <Craftable>
+                    <CraftingTime>60000</CraftingTime>
+                </Craftable>
+                <TradeRouteVehicle />
+                <Locked />
+                <Nameable />
+                <MetaPersistent />
+                <ExpeditionAttribute>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Might</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Navigation</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                </ExpeditionAttribute>
+                <ShipMaintenance>
+                    <Maintenance>5</Maintenance>
+                </ShipMaintenance>
+                <Sellable>
+                    <SellPriceFactor>0.5</SellPriceFactor>
+                </Sellable>
+                <Stance />
+                <Rentable />
+                <WorldMapSound />
+                <Pausable />
+                <ShipIncident>
+                    <InfectableByIncident>
+                        <Illness>
+                            <Infectable>1</Infectable>
+                        </Illness>
+                    </InfectableByIncident>
+                </ShipIncident>
+                <RepairCrane />
+                <SoundEmitterCommandBarks />
+            </Properties>
+        </Template>
+    </ModOp>
+    <ModOp Type="addNextSibling" Path="//Template[Name='Projectile']">
+    <Template>
+      <Name>KamikazePlaneProjectile</Name>
+      <Properties>
+        <Standard />
+        <Projectile>
+          <ProjectileSpeed>2</ProjectileSpeed>
+        </Projectile>
+        <Mesh>
+          <ObjectPosition>Dynamic</ObjectPosition>
+        </Mesh>
+        <Object>
+          <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+        </Object>
+        <Attackable>
+            <AttackableType>Airship</AttackableType>
+            <MaximumHitPoints>1000</MaximumHitPoints>
+            <HPBarOffset>4.5</HPBarOffset>
+        </Attackable>
+        <Exploder>
+          <InnerDamageRadius>10</InnerDamageRadius>
+          <InnerDamage>50</InnerDamage>
+          <DebrisForceY>10</DebrisForceY>
+          <DebrisCount>10</DebrisCount>
+          <HitSuccessNotification>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Action />
+              <ActionNotification />
+            </Values>
+          </HitSuccessNotification>
+          <HitFailNotification>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Action />
+              <ActionNotification />
+            </Values>
+          </HitFailNotification>
+        </Exploder>
+        <SoundEmitter />
+        <UpgradeList />
+        <ProjectileIncident />
+      </Properties>
+    </Template>
+    </ModOp>
+    <ModOp Type="addNextSibling" Path="//Template[Name='Projectile']">
+        <Template>
+            <Name>PlaneProjectile</Name>
+            <Properties>
+                <Projectile>
+                    <ProjectileSpeed>2</ProjectileSpeed>
+                </Projectile>
+                <Standard />
+                <Mesh>
+                    <ObjectPosition>Dynamic</ObjectPosition>
+                </Mesh>
+                <Object>
+                    <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+                </Object>
+                <Attackable>
+                    <AttackableType>Airship</AttackableType>
+                    <MaximumHitPoints>1000</MaximumHitPoints>
+                    <AlertRange>150</AlertRange>
+                    <HPBarOffset>4.5</HPBarOffset>
+                    <SelfHealPerHealTick>0.833</SelfHealPerHealTick>
+                    <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+                </Attackable>
+                <Exploder>
+                    <InnerDamageRadius>1</InnerDamageRadius>
+                    <InnerDamage>38</InnerDamage>
+                    <DebrisForceY>0</DebrisForceY>
+                    <DebrisCount>0</DebrisCount>
+                    <OuterDamageRadius>8</OuterDamageRadius>
+                    <MinimumDamage>18</MinimumDamage>
+                    <HitSuccessNotification>
+                      <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                      <Values>
+                        <Action />
+                        <ActionNotification />
+                      </Values>
+                    </HitSuccessNotification>
+                    <HitFailNotification>
+                      <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                      <Values>
+                        <Action />
+                        <ActionNotification />
+                      </Values>
+                    </HitFailNotification>
+                  </Exploder>
+                <Text />
+                <SoundEmitter />
+                <ProjectileIncident />
+                <UpgradeList />
+            </Properties>
+        </Template>
+    </ModOp>
+    <ModOp Type="addNextSibling" Path="//Template[Name='WarShip']">
+        <Template>
+            <Name>AdvancedShipyard</Name>
+            <Properties>
+                <Standard />
+                <Building>
+                    <TerrainType>Coast</TerrainType>
+                </Building>
+                <Blocking />
+                <Mesh />
+                <Object />
+                <AmbientMoodProvider />
+                <Constructable />
+                <BuildingUnique />
+                <Selection>
+                    <GUIType>Shipyard</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text />
+                <Shipyard />
+                <Cost />
+                <Locked />
+                <Maintenance>
+                    <IncomeCategory>HarbourBuildings</IncomeCategory>
+                </Maintenance>
+                <Infolayer />
+                <Attackable>
+                    <HasRuinState>1</HasRuinState>
+                    <SelfHealPerHealTick>300</SelfHealPerHealTick>
+                    <CanBeAttackedByPlayer>1</CanBeAttackedByPlayer>
+                    <RuinSmokeParticles>
+                        <Item>
+                            <SmokeParticleFilePath>data/graphics/effects/military/explosions/damage_smoke_01.cfg</SmokeParticleFilePath>
+                        </Item>
+                    </RuinSmokeParticles>
+                    <RuinSmokeParticlesMin>1</RuinSmokeParticlesMin>
+                    <RuinSmokeParticlesMax>3</RuinSmokeParticlesMax>
+                    <RuinSmokeParticleRectBorderPercent>0.2</RuinSmokeParticleRectBorderPercent>
+                    <ExplosionEffects>
+                        <Item />
+                    </ExplosionEffects>
+                </Attackable>
+                <Pausable />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <ConstructionSounds>
+                        <BuildFailed>
+                            <Item>
+                                <Sound>9818387</Sound>
+                            </Item>
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item>
+                                <Sound>9818755</Sound>
+                            </Item>
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item>
+                                <Sound>203995</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item>
+                                <Sound>200141</Sound>
+                            </Item>
+                        </BuildMoveEnd>
+                    </ConstructionSounds>
+                    <IncidentSounds>
+                        <ExplosionOneShots>
+                            <Item>
+                                <Sound>203849</Sound>
+                            </Item>
+                        </ExplosionOneShots>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Communication>FireIndustry</Communication>
+                        </Fire>
+                        <Riot>
+                            <Communication>RiotIndustry</Communication>
+                            <InitiallySpreadToSameGUID>1</InitiallySpreadToSameGUID>
+                        </Riot>
+                        <Illness>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                            <Communication>IllnessIndustry</Communication>
+                        </Illness>
+                        <Explosion>
+                            <Communication>ExplosionIndustry</Communication>
+                        </Explosion>
+                    </Infectable>
+                </IncidentInfectable>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Industrializable />
+                <UpgradeList />
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+                <StreetActivation />
+                <QuestObject />
+                <Electrifiable />
+                <Attacker>
+                    <AttackRange>72</AttackRange>
+                    <LineOfSightRange>72</LineOfSightRange>
+                    <ProjectileAsset>102217</ProjectileAsset>
+                    <BaseDamage>12</BaseDamage>
+                    <Turrets>
+                        <Item>
+                            <TurnSpan>360</TurnSpan>
+                            <TurretCfg>data/graphics/buildings/special/harbor_04/harbor_04_turret.cfg</TurretCfg>
+                        </Item>
+                    </Turrets>
+                    <AccuracyBase>10</AccuracyBase>
+                    <AccuracyIncreaseOverDistance>20</AccuracyIncreaseOverDistance>
+                    <TargetAngleVariation>360</TargetAngleVariation>
+                    <ShootingTracking>TurretFixed</ShootingTracking>
+                    <TurretExplosionEffectAsset>101994</TurretExplosionEffectAsset>
+                    <MuzzleEffectAssets>
+                        <Item>
+                            <MuzzleEffectAsset>101975</MuzzleEffectAsset>
+                        </Item>
+                    </MuzzleEffectAssets>
+                    <AccuracyByDistance>
+                        <Item />
+                        <Item>
+                            <AccuracyByDistancePair>
+                                <EnemyDistanceRelToAttackRange>100</EnemyDistanceRelToAttackRange>
+                                <CorrespondingAccuracy>50</CorrespondingAccuracy>
+                            </AccuracyByDistancePair>
+                        </Item>
+                    </AccuracyByDistance>
+                </Attacker>
+            </Properties>
+        </Template>
+    </ModOp>
+</ModOps>

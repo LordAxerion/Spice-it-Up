@@ -1,0 +1,136 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>2130000008</GUID>
+		<Text>Bismark Class </Text>
+	</Text>
+	<Text>
+		<GUID>2130000012</GUID>
+		<Text>The Queen gifted her Bismark Class battleship to us.It is also used under several occasions for defeating large warfleets and defending critical areas.Having advanced radar system with no Accuracy loss,firing destructive 380mm SK-C main guns with HE shells,extremely powerful Wagner Turbines and Zaunkonig T5 torpedoes 	</Text>
+    </Text>
+
+  </ModOp>
+
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>2130000001</GUID>
+		<Text>G7es Zaunkonig T5</Text>
+	</Text>
+  <Text>
+    <GUID>2130000004</GUID>
+  <Text>The Zaunkonig accoustic torpedo introduced in 1943. It has significant enhancements over a regular torpedo.Travelling at 44 kmh and effective range of about 5000 metres.The Zaunkonig is devastating when used on steel ships  </Text>
+   </Text>
+   <Text>
+		<GUID>2130000331</GUID>
+		<Text>Wagner Superheated Boilers</Text>
+	</Text>
+	<Text>
+		<GUID>2130000332</GUID>
+		<Text>Pushes Blohm and Voss Turbines to their maximum capacity.Reaching 110.000KW power momentarily</Text>
+	</Text>
+	<Text>
+		<GUID>2130000334</GUID>
+		<Text>12x  Wagner Hochdruck high pressure steam-heated boilers installed on Bismark Class Battleship.State of art German engineering.</Text>
+	</Text>
+</ModOp>
+
+<ModOp Type="add" Path="TextExport/Texts">
+	<Text>
+		<GUID>2130000122</GUID>
+		<Text> Advanced 380mm SK C 34 Naval Guns with High Explosive Ammo Equipped.</Text>
+	</Text>
+</ModOp>
+
+
+<ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>2130000034</GUID>
+		<Text>Exciting news Captain ! Remnants Our Arctic expedition ship is arrived at our Operations Center.The informants told our scout expedition that about the legendary battleship.Unfortunately Pirates ambushed our scout team and  took the map showing the location of Battleship. Prepare your ship carefully !</Text>
+	</Text>
+</ModOp>
+
+<ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>2130000036</GUID>
+		<Text>Operation Freezing Giant</Text>
+	</Text>
+	<Text>
+		<GUID>2130000015</GUID>
+		<Text>Search and Rescue Operations</Text>
+	</Text>
+</ModOp>
+
+ <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>2130000017</GUID>
+		<Text>Location of The Queen's Royal Battleship </Text>
+	</Text>
+	<Text>
+		<GUID>2130000225</GUID>
+		<Text>Queens Permit for her Royal Battleship </Text>
+	</Text>
+	<Text>
+		<GUID>2130000121</GUID>
+		<Text>Congratulations Captain. Your long and challeging expedition journey is ended. You can Dominate the Seas now ! </Text>
+	</Text>
+	<Text>
+		<GUID>2130000018</GUID>
+		<Text>The pirates hid the Battleship in a cave system in Arctic Region. The map marked with X to pinpoint the location. 	</Text>
+    </Text>
+</ModOp>
+
+	<ModOp Type="add" Path="TextExport/Texts">
+	<Text>
+		<GUID>2130000071</GUID>
+		<Text>Operation Arctic Delta</Text>
+    </Text>
+	<Text>
+		<GUID>2130000072</GUID>
+		<Text>Now that we acquired long lost Royal Battleship Map and pin pointing the location.The journey to find to Royal Battleship can begin.	</Text>
+    </Text>
+	<Text>
+		<GUID>2130000073</GUID>
+		<Text>Congratulations Captain. You found the Queens Permit of Royal Battlehip.Show it to her and acquire her Battleship	</Text>
+    </Text>
+</ModOp>
+
+ <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>2130000041</GUID>
+		<Text>Expedition Rescue Class</Text>
+	</Text>
+	<Text>
+		<GUID>2130000043</GUID>
+		<Text>Special type of expedition ship.The ship houses two pair of 600 PSI upgraded Boiler Tank and Engine.She can traverse open-sea faster then regular ships.</Text>
+    </Text>
+    </ModOp>
+
+	<ModOp Type="add" Path="TextExport/Texts">
+		<Text>
+			<GUID>2130000075</GUID>
+			<Text>Journal of James von Schmidt</Text>
+		</Text>
+		<Text>
+			<GUID>114382</GUID>
+			<Text>&lt;i&gt;&lt;b&gt;December 24th 1941:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;The Queen ordered us to search the area for valuable resources.I dont understand why they decided to send a Battleship to Arctic Region.We are spending so much sources for clearing ice.The crew already feeling pressured.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;January 9rd, 1942:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;We arrived at our destination. We are already short in supplies.They didnt give us enough time to prepare for this tough expedition.We see some pirate skiffs along the way.They were dealt quickly.Our scouting team detected much larger pirate activity near a narrow cliff system.I Fear they will attack us from there which we cannot defend ourself from that narrow formation.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;January 12th, 1942:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;We are under attack of a very large pirate group.One of our main turret battery malfunctioned.The high mountains preventing our radar system so,we cant call for help,not that it matters anyway.Noone would come to this frozen wasteland. &lt;/i&gt;</Text>
+		    </Text>
+
+		<Text>
+			<GUID>117546</GUID>
+			<Text>Logbook of James von Schmidt.Captain of the Royal Battleship Tirpitz</Text>
+        </Text>
+	</ModOp>
+
+	<ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>2140000001</GUID>
+		<Text>Massive Battleship Seen in our Docks </Text>
+	</Text>
+	<Text>
+		<GUID>2140000002</GUID>
+		<Text>Massive Battleship seen in our docks. People are gathering to see what it might be.The ship is carrying Queens symbol.The rumors from Sir Archibald Blake were true after all.</Text>
+    </Text>
+    </ModOp>
+
+
+</ModOps>

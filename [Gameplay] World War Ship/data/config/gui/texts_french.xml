@@ -1,0 +1,225 @@
+<ModOps>
+	<ModOp Type="add" Path="TextExport/Texts">
+		<Text>
+			<GUID>1510000112</GUID>
+			<Text>Royale</Text>
+		</Text>
+		<Text>
+			<GUID>1510000111</GUID>
+			<Text>Bleu Clair</Text>
+		</Text>
+		<Text>
+			<GUID>1510000110</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000109</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000104</GUID>
+			<Text>Le SMS Schleswig-Holstein était le dernier des cinq cuirassés pré-dreadnought de classe Deutschland construits par la Kaiserliche Marine allemande. Le navire, qui porte le nom de la province de Schleswig-Holstein, a été déposé au chantier naval Germaniawerft à Kiel en août 1905 et mis en service dans la flotte près de trois ans plus tard.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000102</GUID>
+			<Text>SMS Schleswig Holstein</Text>
+		</Text>
+		<Text>
+			<GUID>1510000099</GUID>
+			<Text>Torpille (utilisable dans les Sous-Marins et Corvette)</Text>
+		</Text>
+		<Text>
+			<GUID>1510000092</GUID>
+			<Text>Bleu Claire</Text>
+		</Text>
+		<Text>
+			<GUID>1510000091</GUID>
+			<Text>Geometrique</Text>
+		</Text>
+		<Text>
+			<GUID>1510000090</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000089</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000082</GUID>
+			<Text>La corvette de classe Flower a été utilisée pendant la Seconde Guerre mondiale par les marines alliées, en particulier comme escorte de convoi anti-sous-marin lors de la bataille de l'Atlantique. Elle est très utile pour la chasse aux navires enemies</Text>
+		</Text>
+		<Text>
+			<GUID>1510000081</GUID>
+			<Text>Flower-Corvette</Text>
+		</Text>
+		<Text>
+			<GUID>1510000074</GUID>
+			<Text>Produit la prochaine génération de navires de guerre</Text>
+		</Text>
+		<Text>
+			<GUID>1510000015</GUID>
+			<Text>Chantier Navale Avancé</Text>
+		</Text>
+		<Text>
+			<GUID>1510000070</GUID>
+			<Text>Geometrique</Text>
+		</Text>
+		<Text>
+			<GUID>1510000069</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000068</GUID>
+			<Text>Geometrique</Text>
+		</Text>
+		<Text>
+			<GUID>1510000067</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000066</GUID>
+			<Text>Geometrique</Text>
+		</Text>
+		<Text>
+			<GUID>1510000065</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000064</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000063</GUID>
+			<Text>Camouflage sous l'eau</Text>
+		</Text>
+		<Text>
+			<GUID>1510000062</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000061</GUID>
+			<Text>Rouillé sous l'eau</Text>
+		</Text>
+		<Text>
+			<GUID>1510000060</GUID>
+			<Text>Rouillé</Text>
+		</Text>
+		<Text>
+			<GUID>1510000059</GUID>
+			<Text>Skin par défaut sous l'eau</Text>
+		</Text>
+		<Text>
+			<GUID>1510000057</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000058</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000056</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000055</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000012</GUID>
+			<Text>Aruga Kosaku</Text>
+		</Text>
+		<Text>
+			<GUID>1510000006</GUID>
+			<Text>
+				Tirez sur un avion kamikaze avec une portée immense.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000007</GUID>
+			<Text>Avion (Utilisable dans un Porte Avion)</Text>
+		</Text>
+		<Text>
+			<GUID>1510000002</GUID>
+			<Text>Stuka Kamikaze (Utilisable dans un Porte Avion)</Text>
+		</Text>
+		<Text>
+			<GUID>1510000003</GUID>
+			<Text>Chaque sacrifice doit être fait pour gagner une guerre</Text>
+		</Text>
+		<Text>
+			<GUID>1510000008</GUID>
+			<Text>Les stuka sont des avions allemands utilisés à des fins d'appui au sol rapproché et de bombardement en piqué, que ce soit dans le Stukageschwader ou dans d'autres unités de la Luftwaffe.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000025</GUID>
+			<Text>Destroyer</Text>
+		</Text>
+		<Text>
+			<GUID>1510000026</GUID>
+			<Text>Un destroyer est un navire de guerre rapide, maniable et à longue endurance destiné à escorter une flotte, un convoi ou un groupement tactique de navires plus importants et à les défendre contre de puissants navires à courte portée.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000016</GUID>
+			<Text>Yamato</Text>
+		</Text>
+		<Text>
+			<GUID>1510000010</GUID>
+			<Text>Torpille Mark 16 (utilisable dans les Sous-Marins et Corvette)</Text>
+		</Text>
+		<Text>
+			<GUID>15100000098</GUID>
+			<Text>Lance une torpille qui explose à l'endroit ciblé.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000101</GUID>
+			<Text>Mark 16</Text>
+		</Text>
+		<Text>
+			<GUID>1510000011</GUID>
+			<Text>Une torpille conçue pour pénétrer le blindage lourd des navires de guerre</Text>
+		</Text>
+		<Text>
+			<GUID>1510000001</GUID>
+			<Text>Mine Marine</Text>
+		</Text>
+		<Text>
+			<GUID>1510000000</GUID>
+			<Text>Mine Marine (Utilisable dans le Destroyer)</Text>
+		</Text>
+		<Text>
+			<GUID>1510000029</GUID>
+			<Text>50000 tonnes d'acier de la marine impériale japonaise. Le navire transportait la plus grande artillerie navale jamais montée sur un navire de guerre, neuf canons navals de 460 mm, chacun capable de tirer des obus de 1460 kg sur 42 km.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000032</GUID>
+			<Text>Sous-Marin</Text>
+		</Text>
+		<Text>
+			<GUID>1510000033</GUID>
+			<Text>Les u-boat furent la tactique la plus utilisée par l'Allemagne durant la seconde guerre mondial. Peu couteux et indetectables, ils sont l'arme parfaite pour détruire des navires capitaux sans prendre aucun risque.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000039</GUID>
+			<Text>Navire Utilitaire</Text>
+		</Text>
+		<Text>
+			<GUID>1510000040</GUID>
+			<Text>Répare les navires avec sa grue.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000043</GUID>
+			<Text>Croiseur</Text>
+		</Text>
+		<Text>
+			<GUID>1510000044</GUID>
+			<Text>Plus léger qu'un cuirassé mais toujours assez fort pour détruire tous les enemies de l'empereur.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000048</GUID>
+			<Text>Porte Avion</Text>
+		</Text>
+		<Text>
+			<GUID>1510000049</GUID>
+			<Text>L'arme ultime pour toute flotte qui souhaite écrire l'histoire. Détruisez vos enemies avec le navire le plus puissans jamais crée par l'humanité.</Text>
+		</Text>
+	</ModOp>
+</ModOps>

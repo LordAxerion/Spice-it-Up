@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Alexandre\Documents\WwiseProjects\casse les couilles\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Alexandre\Documents\WwiseProjects\casse les couilles\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Alexandre\Documents\WwiseProjects\casse les couilles\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Alexandre\Documents\WwiseProjects\casse les couilles\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1267983648">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1602519892" Language="SFX" Hash="1965090664">
+			<ObjectPath>\SoundBanks\Default Work Unit\planes</ObjectPath>
+			<ShortName>planes</ShortName>
+			<Path>1602519892.bnk</Path>
+			<IncludedEvents>
+				<Event Id="639345804" Name="Play_engine" ObjectPath="\Events\Default Work Unit\Play_engine">
+					<IncludedMemoryFiles>
+						<File Id="899701846" Language="SFX">
+							<ShortName>engine.wav</ShortName>
+							<Path>SFX\engine_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4030404899" Name="Play_explosion" ObjectPath="\Events\Default Work Unit\Play_explosion">
+					<IncludedMemoryFiles>
+						<File Id="703707935" Language="SFX">
+							<ShortName>explosion.wav</ShortName>
+							<Path>SFX\explosion_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3376092819" Name="Play_sonar" ObjectPath="\Events\Default Work Unit\Play_sonar">
+					<IncludedMemoryFiles>
+						<File Id="510535364" Language="SFX">
+							<ShortName>sonar.wav</ShortName>
+							<Path>SFX\sonar_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3028454873" Name="Play_Stuka_Dive_Sound" ObjectPath="\Events\Default Work Unit\Play_Stuka_Dive_Sound">
+					<IncludedMemoryFiles>
+						<File Id="634884951" Language="SFX">
+							<ShortName>Stuka Dive Sound.wav</ShortName>
+							<Path>SFX\Stuka Dive Sound_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1322396954" Name="Menu_Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	639345804	Play_engine			\Default Work Unit\Play_engine	
+	3028454873	Play_Stuka_Dive_Sound			\Default Work Unit\Play_Stuka_Dive_Sound	
+	3376092819	Play_sonar			\Default Work Unit\Play_sonar	
+	4030404899	Play_explosion			\Default Work Unit\Play_explosion	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1363744781	Menu_Volume_SFX			\Default Work Unit\Menu_Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	510535364	sonar	C:\Users\Alexandre\Documents\WwiseProjects\casse les couilles\.cache\Windows\SFX\sonar_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer_2\sonar		1677726
+	634884951	Stuka Dive Sound	C:\Users\Alexandre\Documents\WwiseProjects\casse les couilles\.cache\Windows\SFX\Stuka Dive Sound_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\Stuka Dive Sound		174934
+	703707935	explosion	C:\Users\Alexandre\Documents\WwiseProjects\casse les couilles\.cache\Windows\SFX\explosion_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\explosion		219375
+	899701846	engine	C:\Users\Alexandre\Documents\WwiseProjects\casse les couilles\.cache\Windows\SFX\engine_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer_2\engine		1777244
+

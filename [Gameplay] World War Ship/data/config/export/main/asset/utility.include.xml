@@ -1,0 +1,200 @@
+<ModOps>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/Attackable/MaximumHitPoints" ModOpID="MaximumHitPoints5" Skip="1">
+    <MaximumHitPoints>2500</MaximumHitPoints>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/ItemContainer/SocketCount" ModOpID="SocketCount5" Skip="1">
+    <SocketCount>0</SocketCount>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/ItemContainer/SlotCount" ModOpID="SlotCount5" Skip="1">
+    <SlotCount>2</SlotCount>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/Walking/Acceleration" ModOpID="Acceleration5" Skip="1">
+    <Acceleration>10</Acceleration>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/Walking/ForwardSpeed" ModOpID="ForwardSpeed5" Skip="1">
+    <ForwardSpeed>5</ForwardSpeed>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/RepairCrane/HealRadius" ModOpID="HealRadius5" Skip="1">
+    <HealRadius>20</HealRadius>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/RepairCrane/HealPerMinute" ModOpID="HealPerMinute5" Skip="1">
+    <HealPerMinute>4000</HealPerMinute>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/RepairCrane/HealBuildingsPerMinute" ModOpID="HealBuildingsPerMinute5" Skip="1">
+    <HealBuildingsPerMinute>4000</HealBuildingsPerMinute>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/Cost/InfluenceCostPoints" ModOpID="InfluenceCostPoints5" Skip="1">
+    <InfluenceCostPoints>10</InfluenceCostPoints>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/Craftable/CraftingTime" ModOpID="CraftingTime5" Skip="1">
+    <CraftingTime>1200000</CraftingTime>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/ShipMaintenance/Maintenance" ModOpID="Maintenance5" Skip="1">
+    <Maintenance>950</Maintenance>
+  </ModOp>
+  <ModOp GUID="1510000039" Type="replace" Path="/Values/Cost/Costs" ModOpID="Costs5" Skip="1">
+    <Costs>
+      <Item>
+        <Ingredient>1010218</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010224</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010223</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010204</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010243</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+    </Costs>
+  </ModOp>
+  <ImyaTweaks Title="Utility Ship" />
+  <ImyaExpose Path="self::MaximumHitPoints" ModOpID="MaximumHitPoints5" ExposeID="Maximum Hit Points" Kind="Enum">
+    <FixedValues>
+      <Value>2500</Value>
+      <Value>1000</Value>
+      <Value>1500</Value>
+      <Value>2000</Value>
+      <Value>3000</Value>
+      <Value>3500</Value>
+      <Value>4000</Value>
+      <Value>4500</Value>
+      <Value>5000</Value>
+      <Value>6000</Value>
+      <Value>8000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::SlotCount" ModOpID="SlotCount5" ExposeID="Slot Count" Kind="Slider">
+    <SliderDefinition Min="1" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="SocketCount5" ExposeID="Socket Count" Kind="Slider">
+    <SliderDefinition Min="0" Max="4" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Acceleration" ModOpID="Acceleration5" ExposeID="Acceleration" Description="Acceleration in knot/s" Kind="Enum">
+    <FixedValues>
+      <Value>10</Value>
+      <Value>2</Value>
+      <Value>3</Value>
+      <Value>4</Value>
+      <Value>5</Value>
+      <Value>6</Value>
+      <Value>7</Value>
+      <Value>8</Value>
+      <Value>9</Value>
+      <Value>12</Value>
+      <Value>15</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::ForwardSpeed" ModOpID="ForwardSpeed5" ExposeID="Forward Speed" Description="Speed in knot" Kind="Slider">
+    <SliderDefinition Min="1" Max="20" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::HealRadius" ModOpID="HealRadius5" ExposeID="Repair Crane Radius" Kind="Slider">
+    <SliderDefinition Min="5" Max="50" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::HealPerMinute" ModOpID="HealPerMinute5" ExposeID="Heal Ships Per Minute" Kind="Enum">
+    <FixedValues>
+      <Value>4000</Value>
+      <Value>500</Value>
+      <Value>1000</Value>
+      <Value>1500</Value>
+      <Value>2000</Value>
+      <Value>2500</Value>
+      <Value>3000</Value>
+      <Value>3500</Value>
+      <Value>4500</Value>
+      <Value>5000</Value>
+      <Value>6000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::HealBuildingsPerMinute" ModOpID="HealBuildingsPerMinute5" ExposeID="Heal Buildings Per Minute" Kind="Enum">
+    <FixedValues>
+      <Value>4000</Value>
+      <Value>500</Value>
+      <Value>1000</Value>
+      <Value>1500</Value>
+      <Value>2000</Value>
+      <Value>2500</Value>
+      <Value>3000</Value>
+      <Value>3500</Value>
+      <Value>4500</Value>
+      <Value>5000</Value>
+      <Value>6000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceCostPoints" ModOpID="InfluenceCostPoints5" ExposeID="Influence Cost Points" Kind="Slider">
+    <SliderDefinition Min="0" Max="99" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::CraftingTime" ModOpID="CraftingTime5" ExposeID="Crafting Time" Description="[Default=20min]" Kind="Enum">
+    <FixedValues>
+      <Value>1200000</Value>
+      <Value>60000</Value>
+      <Value>300000</Value>
+      <Value>600000</Value>
+      <Value>900000</Value>
+      <Value>1500000</Value>
+      <Value>1800000</Value>
+      <Value>2700000</Value>
+      <Value>3600000</Value>
+      <Value>7200000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::Maintenance" ModOpID="Maintenance5" ExposeID="Maintenance" Kind="Enum">
+    <FixedValues>
+      <Value>950</Value>
+      <Value>100</Value>
+      <Value>200</Value>
+      <Value>300</Value>
+      <Value>400</Value>
+      <Value>500</Value>
+      <Value>600</Value>
+      <Value>700</Value>
+      <Value>800</Value>
+      <Value>900</Value>
+      <Value>1000</Value>
+      <Value>1100</Value>
+      <Value>1200</Value>
+      <Value>1300</Value>
+      <Value>1400</Value>
+      <Value>1500</Value>
+      <Value>1700</Value>
+      <Value>1800</Value>
+      <Value>1900</Value>
+      <Value>2000</Value>
+      <Value>2250</Value>
+      <Value>2500</Value>
+      <Value>2750</Value>
+      <Value>3000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::Costs" ModOpID="Costs5" ExposeID="Remove Construction Costs" Kind="Toggle">
+    <AltValue>
+      <Costs>
+        <Item>
+          <Ingredient>1010218</Ingredient>
+          <Amount>30</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010224</Ingredient>
+          <Amount>20</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010243</Ingredient>
+          <Amount>20</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010204</Ingredient>
+          <Amount>5</Amount>
+        </Item>
+      </Costs>
+    </AltValue>
+  </ImyaExpose>
+  <Include File="./utility.include.imyatweak.include.xml" />
+</ModOps>

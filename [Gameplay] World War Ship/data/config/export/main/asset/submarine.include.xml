@@ -1,0 +1,154 @@
+<ModOps>
+  <ModOp GUID="1510000032" Type="replace" Path="/Values/Attackable/MaximumHitPoints" ModOpID="MaximumHitPoints4" Skip="1">
+    <MaximumHitPoints>3500</MaximumHitPoints>
+  </ModOp>
+  <ModOp GUID="1510000032" Type="replace" Path="/Values/ItemContainer/SocketCount" ModOpID="SocketCount4" Skip="1">
+    <SocketCount>1</SocketCount>
+  </ModOp>
+  <ModOp GUID="1510000032" Type="replace" Path="/Values/ItemContainer/SlotCount" ModOpID="SlotCount4" Skip="1">
+    <SlotCount>2</SlotCount>
+  </ModOp>
+  <ModOp GUID="1510000032" Type="replace" Path="/Values/Walking/Acceleration" ModOpID="Acceleration4" Skip="1">
+    <Acceleration>7</Acceleration>
+  </ModOp>
+  <ModOp GUID="1510000032" Type="replace" Path="/Values/Walking/ForwardSpeed" ModOpID="ForwardSpeed4" Skip="1">
+    <ForwardSpeed>5</ForwardSpeed>
+  </ModOp>
+  <ModOp GUID="1510000032" Type="replace" Path="/Values/Cost/InfluenceCostPoints" ModOpID="InfluenceCostPoints4" Skip="1">
+    <InfluenceCostPoints>23</InfluenceCostPoints>
+  </ModOp>
+  <ModOp GUID="1510000032" Type="replace" Path="/Values/Craftable/CraftingTime" ModOpID="CraftingTime4" Skip="1">
+    <CraftingTime>900000</CraftingTime>
+  </ModOp>
+  <ModOp GUID="1510000032" Type="replace" Path="/Values/ShipMaintenance/Maintenance" ModOpID="Maintenance4" Skip="1">
+    <Maintenance>2800</Maintenance>
+  </ModOp>
+  <ModOp GUID="1510000032" Type="replace" Path="/Values/Cost/Costs" ModOpID="Costs4" Skip="1">
+    <Costs>
+      <Item>
+        <Ingredient>1010218</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010224</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010223</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010204</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010243</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+    </Costs>
+  </ModOp>
+  <ImyaTweaks Title="Submarine" />
+  <ImyaExpose Path="self::MaximumHitPoints" ModOpID="MaximumHitPoints4" ExposeID="Maximum Hit Points" Kind="Enum">
+    <FixedValues>
+      <Value>3500</Value>
+      <Value>1000</Value>
+      <Value>1500</Value>
+      <Value>2000</Value>
+      <Value>2500</Value>
+      <Value>3000</Value>
+      <Value>4000</Value>
+      <Value>4500</Value>
+      <Value>5000</Value>
+      <Value>6000</Value>
+      <Value>8000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::SlotCount" ModOpID="SlotCount4" ExposeID="Slot Count" Kind="Slider">
+    <SliderDefinition Min="1" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="SocketCount4" ExposeID="Socket Count" Kind="Slider">
+    <SliderDefinition Min="1" Max="4" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Acceleration" ModOpID="Acceleration4" ExposeID="Acceleration" Description="Acceleration in knot/s" Kind="Enum">
+    <FixedValues>
+      <Value>7</Value>
+      <Value>2</Value>
+      <Value>3</Value>
+      <Value>4</Value>
+      <Value>5</Value>
+      <Value>6</Value>
+      <Value>8</Value>
+      <Value>9</Value>
+      <Value>10</Value>
+      <Value>12</Value>
+      <Value>15</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::ForwardSpeed" ModOpID="ForwardSpeed4" ExposeID="Forward Speed" Description="Speed in knot" Kind="Slider">
+    <SliderDefinition Min="1" Max="15" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceCostPoints" ModOpID="InfluenceCostPoints4" ExposeID="Influence Cost Points" Kind="Slider">
+    <SliderDefinition Min="0" Max="99" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::CraftingTime" ModOpID="CraftingTime4" ExposeID="Crafting Time" Description="[Default=15min]" Kind="Enum">
+    <FixedValues>
+      <Value>900000</Value>
+      <Value>60000</Value>
+      <Value>300000</Value>
+      <Value>600000</Value>
+      <Value>1200000</Value>
+      <Value>1500000</Value>
+      <Value>1800000</Value>
+      <Value>2700000</Value>
+      <Value>3600000</Value>
+      <Value>7200000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::Maintenance" ModOpID="Maintenance4" ExposeID="Maintenance" Kind="Enum">
+    <FixedValues>
+      <Value>2800</Value>
+      <Value>1000</Value>
+      <Value>1500</Value>
+      <Value>2000</Value>
+      <Value>2500</Value>
+      <Value>3000</Value>
+      <Value>3500</Value>
+      <Value>4000</Value>
+      <Value>4500</Value>
+      <Value>5000</Value>
+      <Value>5500</Value>
+      <Value>6000</Value>
+      <Value>7000</Value>
+      <Value>8000</Value>
+      <Value>9000</Value>
+      <Value>10000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::Costs" ModOpID="Costs4" ExposeID="Remove Construction Costs" Kind="Toggle">
+    <AltValue>
+      <Costs>
+        <Item>
+          <Ingredient>1010218</Ingredient>
+          <Amount>70</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010224</Ingredient>
+          <Amount>30</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010223</Ingredient>
+          <Amount>30</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010204</Ingredient>
+          <Amount>10</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010243</Ingredient>
+          <Amount>10</Amount>
+        </Item>
+      </Costs>
+    </AltValue>
+  </ImyaExpose>
+  <Include File="./submarine.include.imyatweak.include.xml" />
+</ModOps>

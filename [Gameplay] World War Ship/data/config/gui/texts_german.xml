@@ -1,0 +1,224 @@
+<ModOps>
+	<ModOp Type="add" Path="TextExport/Texts">
+		<Text>
+			<GUID>1510000112</GUID>
+			<Text>Royal</Text>
+		</Text>
+		<Text>
+			<GUID>1510000111</GUID>
+			<Text>Light Blue</Text>
+		</Text>
+		<Text>
+			<GUID>1510000110</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000109</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000104</GUID>
+			<Text>SMS Schleswig-Holstein was the last of the five pre-dreadnought Deutschland-class battleships built by the German Kaiserliche Marine. The ship, named for the province of Schleswig-Holstein, was laid down in the Germaniawerft dockyard in Kiel in August 1905 and commissioned into the fleet nearly three years later.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000102</GUID>
+			<Text>SMS Schleswig Holstein</Text>
+		</Text>
+		<Text>
+			<GUID>1510000099</GUID>
+			<Text>Torpedo (Usable in Corvette and Submarine)</Text>
+		</Text>
+		<Text>
+			<GUID>1510000092</GUID>
+			<Text>Light Blue</Text>
+		</Text>
+		<Text>
+			<GUID>1510000091</GUID>
+			<Text>Geometrical</Text>
+		</Text>
+		<Text>
+			<GUID>1510000090</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000089</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000082</GUID>
+			<Text>The Flower-class corvette was used during World War II by the Allied navies particularly as anti-submarine convoy escorts in the Battle of the Atlantic. It is really useful to hunt enmies ship </Text>
+		</Text>
+		<Text>
+			<GUID>1510000081</GUID>
+			<Text>Flower-Corvette class</Text>
+		</Text>
+		<Text>
+			<GUID>1510000074</GUID>
+			<Text>Produces the next generation of war ships</Text>
+		</Text>
+		<Text>
+			<GUID>1510000015</GUID>
+			<Text>Advanced Shipyard</Text>
+		</Text>
+		<Text>
+			<GUID>1510000070</GUID>
+			<Text>Geometrical</Text>
+		</Text>
+		<Text>
+			<GUID>1510000069</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000068</GUID>
+			<Text>Geometrical</Text>
+		</Text>
+		<Text>
+			<GUID>1510000067</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000066</GUID>
+			<Text>Geometrical</Text>
+		</Text>
+		<Text>
+			<GUID>1510000065</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000064</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000063</GUID>
+			<Text>Camouflage Underwater</Text>
+		</Text>
+		<Text>
+			<GUID>1510000062</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000061</GUID>
+			<Text>Rust Underwater</Text>
+		</Text>
+		<Text>
+			<GUID>1510000060</GUID>
+			<Text>Rust</Text>
+		</Text>
+		<Text>
+			<GUID>1510000059</GUID>
+			<Text>Default skin Underwater</Text>
+		</Text>
+		<Text>
+			<GUID>1510000057</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000058</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000056</GUID>
+			<Text>Camouflage</Text>
+		</Text>
+		<Text>
+			<GUID>1510000055</GUID>
+			<Text>Dazzle</Text>
+		</Text>
+		<Text>
+			<GUID>1510000012</GUID>
+			<Text>Aruga Kosaku</Text>
+		</Text>
+		<Text>
+			<GUID>1510000006</GUID>
+			<Text>Shoot a kamikaze plane with a huge range.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000007</GUID>
+			<Text>Plane (Usable in Aircraft Carrier)</Text>
+		</Text>
+		<Text>
+			<GUID>1510000002</GUID>
+			<Text>Kamikaze Stuka (Usable in Aircraft Carrier)</Text>
+		</Text>
+		<Text>
+			<GUID>1510000003</GUID>
+			<Text>Every sacrifice must be done to win a war</Text>
+		</Text>
+		<Text>
+			<GUID>1510000008</GUID>
+			<Text>stuka are German aircraft that were used for close ground support and dive bombing purposes, whether within the Stukageschwader or within other units of the Luftwaffe.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000025</GUID>
+			<Text>Destroyer Class</Text>
+		</Text>
+		<Text>
+			<GUID>1510000026</GUID>
+			<Text>A destroyer is a fast, maneuvrable, long-endurance warship intented to escort larger vessels fleet, convoy or battle group and defend them against powerful short range.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000016</GUID>
+			<Text>Yamato Class</Text>
+		</Text>
+		<Text>
+			<GUID>1510000010</GUID>
+			<Text>Mark 16 Torpedo (Usable in Submarine and Corvette)</Text>
+		</Text>
+		<Text>
+			<GUID>15100000098</GUID>
+			<Text>Launches a torpedo, which explodes at the targeted location.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000101</GUID>
+			<Text>Mark 16</Text>
+		</Text>
+		<Text>
+			<GUID>1510000011</GUID>
+			<Text>A torpedo designed to penetrate heavy warship armor.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000001</GUID>
+			<Text>Sea Mine</Text>
+		</Text>
+		<Text>
+			<GUID>1510000000</GUID>
+			<Text>Sea Mine (Usable in Destroyer)</Text>
+		</Text>
+		<Text>
+			<GUID>1510000029</GUID>
+			<Text>50000 tons of steel from Imperial Japanese Navy. The class carried the largest naval artillery ever fitted to a warship, nine 460-mm (18.1 in) naval guns, each capable of firing 1,460 kg (3,220 lb) shells over 42 km (26 mi)</Text>
+		</Text>
+		<Text>
+			<GUID>1510000032</GUID>
+			<Text>Submarine</Text>
+		</Text>
+		<Text>
+			<GUID>1510000033</GUID>
+			<Text>u boat were the most used tactic by germany during WW2. low cost and undetactable, they are the perfect weapon to destroy capital ship without taking any risk.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000039</GUID>
+			<Text>Utility ship</Text>
+		</Text>
+		<Text>
+			<GUID>1510000040</GUID>
+			<Text>Repairs and fix ships with his crane</Text>
+		</Text>
+		<Text>
+			<GUID>1510000043</GUID>
+			<Text>Cruiser Class</Text>
+		</Text>
+		<Text>
+			<GUID>1510000044</GUID>
+			<Text>lighter than a battleship but still strong enough to destroy every enemy of the emperor.</Text>
+		</Text>
+		<Text>
+			<GUID>1510000048</GUID>
+			<Text>Aircraft Carrier</Text>
+		</Text>
+		<Text>
+			<GUID>1510000049</GUID>
+			<Text>the ultimate weapon to any fleet who wants to write history. Destroy your enemy with the most powerfull ship ever created by humanity.</Text>
+		</Text>
+	</ModOp>
+</ModOps>

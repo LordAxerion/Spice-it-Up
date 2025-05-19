@@ -1,0 +1,197 @@
+<ModOps>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Attacker/BaseDamage" ModOpID="BaseDamage7" Skip="1">
+    <BaseDamage>150</BaseDamage>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Attacker/ReloadTime" ModOpID="ReloadTime7" Skip="1">
+    <ReloadTime>30</ReloadTime>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Attacker/AttackRange" ModOpID="AttackRange7" Skip="1">
+    <AttackRange>75</AttackRange>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Attacker/LineOfSightRange" ModOpID="LineOfSightRange7" Skip="1">
+    <LineOfSightRange>100</LineOfSightRange>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Attackable/MaximumHitPoints" ModOpID="MaximumHitPoints7" Skip="1">
+    <MaximumHitPoints>4000</MaximumHitPoints>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/ItemContainer/SocketCount" ModOpID="SocketCount7" Skip="1">
+    <SocketCount>2</SocketCount>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/ItemContainer/SlotCount" ModOpID="SlotCount7" Skip="1">
+    <SlotCount>1</SlotCount>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Walking/Acceleration" ModOpID="Acceleration7" Skip="1">
+    <Acceleration>7</Acceleration>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Walking/ForwardSpeed" ModOpID="ForwardSpeed7" Skip="1">
+    <ForwardSpeed>10</ForwardSpeed>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Cost/InfluenceCostPoints" ModOpID="InfluenceCostPoints7" Skip="1">
+    <InfluenceCostPoints>24</InfluenceCostPoints>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Craftable/CraftingTime" ModOpID="CraftingTime7" Skip="1">
+    <CraftingTime>840000</CraftingTime>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/ShipMaintenance/Maintenance" ModOpID="Maintenance7" Skip="1">
+    <Maintenance>2000</Maintenance>
+  </ModOp>
+  <ModOp GUID="1510000081" Type="replace" Path="/Values/Cost/Costs" ModOpID="Costs7" Skip="1">
+    <Costs>
+      <Item>
+        <Ingredient>1010218</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010224</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010223</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010204</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010243</Ingredient>
+        <Amount>0</Amount>
+      </Item>
+    </Costs>
+  </ModOp>
+  <ImyaTweaks Title="Corvette" />
+  <ImyaExpose Path="self::BaseDamage" ModOpID="BaseDamage7" ExposeID="Base Damage" Kind="Enum">
+    <FixedValues>
+      <Value>150</Value>
+      <Value>50</Value>
+      <Value>75</Value>
+      <Value>100</Value>
+      <Value>125</Value>
+      <Value>175</Value>
+      <Value>200</Value>
+      <Value>250</Value>
+      <Value>300</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::ReloadTime" ModOpID="ReloadTime7" ExposeID="Reload Time" Description="[(BaseDamage/ReloadTime) x 10 = Damage per second]" Kind="Slider">
+    <SliderDefinition Min="5" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::AttackRange" ModOpID="AttackRange7" ExposeID="Attack Range" Kind="Slider">
+    <SliderDefinition Min="10" Max="115" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::LineOfSightRange" ModOpID="LineOfSightRange7" ExposeID="Line Of Sight Range" Kind="Slider">
+    <SliderDefinition Min="10" Max="115" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::MaximumHitPoints" ModOpID="MaximumHitPoints7" ExposeID="Maximum Hit Points" Kind="Enum">
+    <FixedValues>
+      <Value>4000</Value>
+      <Value>2000</Value>
+      <Value>3000</Value>
+      <Value>5000</Value>
+      <Value>6000</Value>
+      <Value>7000</Value>
+      <Value>8000</Value>
+      <Value>9000</Value>
+      <Value>10000</Value>
+      <Value>11000</Value>
+      <Value>12000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::SlotCount" ModOpID="SlotCount7" ExposeID="Slot Count" Kind="Slider">
+    <SliderDefinition Min="1" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="SocketCount7" ExposeID="Socket Count" Kind="Slider">
+    <SliderDefinition Min="1" Max="4" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Acceleration" ModOpID="Acceleration7" ExposeID="Acceleration" Description="Acceleration in knot/s" Kind="Enum">
+    <FixedValues>
+      <Value>7</Value>
+      <Value>2</Value>
+      <Value>3</Value>
+      <Value>4</Value>
+      <Value>5</Value>
+      <Value>6</Value>
+      <Value>8</Value>
+      <Value>9</Value>
+      <Value>10</Value>
+      <Value>12</Value>
+      <Value>15</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::ForwardSpeed" ModOpID="ForwardSpeed7" ExposeID="Forward Speed" Description="Speed in knot" Kind="Slider">
+    <SliderDefinition Min="1" Max="15" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceCostPoints" ModOpID="InfluenceCostPoints7" ExposeID="Influence Cost Points" Kind="Slider">
+    <SliderDefinition Min="0" Max="99" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::CraftingTime" ModOpID="CraftingTime7" ExposeID="Crafting Time" Description="[Default=14min]" Kind="Enum">
+    <FixedValues>
+      <Value>840000</Value>
+      <Value>60000</Value>
+      <Value>300000</Value>
+      <Value>600000</Value>
+      <Value>900000</Value>
+      <Value>1200000</Value>
+      <Value>1500000</Value>
+      <Value>1800000</Value>
+      <Value>2700000</Value>
+      <Value>3600000</Value>
+      <Value>7200000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::Maintenance" ModOpID="Maintenance7" ExposeID="Maintenance" Kind="Enum">
+    <FixedValues>
+      <Value>2000</Value>
+      <Value>100</Value>
+      <Value>200</Value>
+      <Value>300</Value>
+      <Value>400</Value>
+      <Value>500</Value>
+      <Value>600</Value>
+      <Value>700</Value>
+      <Value>800</Value>
+      <Value>900</Value>
+      <Value>1000</Value>
+      <Value>1100</Value>
+      <Value>1200</Value>
+      <Value>1300</Value>
+      <Value>1400</Value>
+      <Value>1500</Value>
+      <Value>1700</Value>
+      <Value>1800</Value>
+      <Value>1900</Value>
+      <Value>2100</Value>
+      <Value>2250</Value>
+      <Value>2500</Value>
+      <Value>2750</Value>
+      <Value>3000</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::Costs" ModOpID="Costs7" ExposeID="Remove Construction Costs" Kind="Toggle">
+    <AltValue>
+      <Costs>
+        <Item>
+          <Ingredient>1010218</Ingredient>
+          <Amount>70</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010224</Ingredient>
+          <Amount>30</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010223</Ingredient>
+          <Amount>25</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010204</Ingredient>
+          <Amount>20</Amount>
+        </Item>
+        <Item>
+          <Ingredient>1010243</Ingredient>
+          <Amount>20</Amount>
+        </Item>
+      </Costs>
+    </AltValue>
+  </ImyaExpose>
+  <Include File="./corvette.include.imyatweak.include.xml" />
+</ModOps>

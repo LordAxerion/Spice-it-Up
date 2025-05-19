@@ -1,0 +1,86 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Alexandre\\Documents\\WwiseProjects\\casse les couilles\\",
+   "SourceFilesRoot": "C:\\Users\\Alexandre\\Documents\\WwiseProjects\\casse les couilles\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Alexandre\\Documents\\WwiseProjects\\casse les couilles\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Alexandre\\Documents\\WwiseProjects\\casse les couilles\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1602519892",
+    "Language": "SFX",
+    "Hash": "1965090664",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\planes",
+    "ShortName": "planes",
+    "Path": "1602519892.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "639345804",
+      "Name": "Play_engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_engine",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "899701846",
+        "Language": "SFX",
+        "ShortName": "engine.wav",
+        "Path": "SFX\\engine_05842A19.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4030404899",
+      "Name": "Play_explosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_explosion",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "703707935",
+        "Language": "SFX",
+        "ShortName": "explosion.wav",
+        "Path": "SFX\\explosion_05842A19.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3376092819",
+      "Name": "Play_sonar",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sonar",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "510535364",
+        "Language": "SFX",
+        "ShortName": "sonar.wav",
+        "Path": "SFX\\sonar_05842A19.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3028454873",
+      "Name": "Play_Stuka_Dive_Sound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Stuka_Dive_Sound",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "634884951",
+        "Language": "SFX",
+        "ShortName": "Stuka Dive Sound.wav",
+        "Path": "SFX\\Stuka Dive Sound_05842A19.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1363744781",
+      "Name": "Menu_Volume_SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Menu_Volume_SFX"
+     }
+    ]
+   }
+  ]
+ }
+}

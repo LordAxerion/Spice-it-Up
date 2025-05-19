@@ -1,0 +1,10 @@
+<ModOps>
+  <ModOp Type="replace" GUID="2001241" Path="/Values/BuildingBaseTiles/HarbourConstructionAreaRadius" ModOpID="AreaRadius" Skip="1">
+    <HarbourConstructionAreaRadius>40</HarbourConstructionAreaRadius>
+  </ModOp>
+  <ImyaTweaks Title="Harbour Construction Area Radius" />
+  <ImyaExpose Path="self::HarbourConstructionAreaRadius" ModOpID="AreaRadius" ExposeID="Radius" Kind="Slider">
+    <SliderDefinition Min="40" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./harbour.include.imyatweak.include.xml" />
+</ModOps>
