@@ -1,0 +1,11 @@
+<ModOps>
+	<ModOp Path="/Values/MapTemplate/TemplateFilename" GUID="142011" Type="replace">
+		<TemplateFilename>mods/[Map] Four Crowns - Large Old World Map/data/ame/maps/pool/moderate/moderate_corners_ll.a7t</TemplateFilename>
+	</ModOp>
+	<ModOp Path="/Values/MapTemplate/TemplateFilename" GUID="142022" Type="replace">
+		<TemplateFilename>mods/[Map] Four Crowns - Large Old World Map/data/ame/maps/pool/moderate/moderate_corners_ll.a7t</TemplateFilename>
+	</ModOp>
+	<ModOp Path="/Values/MapTemplate/TemplateFilename" GUID="142021" Type="replace">
+		<TemplateFilename>mods/[Map] Four Crowns - Large Old World Map/data/ame/maps/pool/moderate/moderate_corners_ll.a7t</TemplateFilename>
+	</ModOp>
+</ModOps>
