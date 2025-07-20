@@ -1,12 +1,10 @@
 {
-  "Version": "1",
+  "Version": "1.1.1",
   "ModID": "Spice_PlazaDecoration",
-  "IncompatibleIds": [
-    "NewHorizons"
-  ],
+  "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "装饰",
     "English": "Ornamental",
     "French": null,
     "German": "Zierobjekte",
@@ -19,7 +17,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "广场装饰",
     "English": "Plaza decoration",
     "French": null,
     "German": "Plaza-Verschönerungen",
@@ -32,7 +30,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "广场地面八件新饰品。",
     "English": "Eight new Ornaments with plaza ground.",
     "French": null,
     "German": "Acht neue Ornamente mit Plazaboden.",
@@ -48,5 +46,6 @@
   "DLCDependencies": null,
   "CreatorName": "Spice it up-Team: Taubenangriff",
   "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image" : null
+  "Image" : null,
+  "ModioResourceId" : 3211659
 }

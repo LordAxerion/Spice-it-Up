@@ -1,0 +1,60 @@
+{
+  "Version": "1.1.1",
+  "ModID": "Spice_Airship",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "游戏玩法",
+    "English": "Gameplay",
+    "French": null,
+    "German": "Spielablauf",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": "Rozgrywka",
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": "老内特的飞艇",
+    "English": "Nate's Airship",
+    "French": null,
+    "German": "Nate's Luftschiff",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": "你可以在内特的贸易站购买他的飞艇，或者在北极飞艇机库建造它。",
+    "English": "You can buy Nate's Airship at his trading post or build it in the arctic airship hangar.",
+    "French": null,
+    "German": "Nate verkauft Exemplare seines Luftschiffes an seinem Handelsposten. Alternativ kann es im Luftschiffhangar gebaut werden.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "SunkenTreasures",
+      "Dependant": "atLeastOneRequired"
+    },
+    {
+      "DLC": "ThePassage",
+      "Dependant": "atLeastOneRequired"
+    }
+  ],
+  "CreatorName": "Spice it up-Team: Taubenangriff",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image" : null,
+  "ModioResourceId" : 3211424
+}
