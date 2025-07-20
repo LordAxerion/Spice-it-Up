@@ -1,12 +1,10 @@
 {
-  "Version": "1",
+  "Version": "1.0.1",
   "ModID": "Spice_Hangar",
-  "IncompatibleIds": [
-    "NewHorizons"
-  ],
+  "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "调整",
     "English": "Adjustments",
     "French": null,
     "German": "Anpassung",
@@ -19,7 +17,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "飞艇机库没有任务",
     "English": "Airship Hangar without quest",
     "French": null,
     "German": "Luftschiff-Hangar ohne Story",
@@ -32,7 +30,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "在北极的故事情节中，飞艇机库可以不经过处理而建造",
     "English": "Airship hangars can be built without processing in the Arctic storyline",
     "French": null,
     "German": "Luftschiffhangars können ohne in der Arktis-Story weiterzuspielen gebaut werden.",
@@ -53,5 +51,6 @@
   ],
   "CreatorName": "Spice it up-Team: Taubenangriff",
   "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image" : null
+  "Image" : null,
+  "ModioResourceId" : 3210461
 }

@@ -59,44 +59,49 @@ local AiLimit = 3
 
 local DoNotCount = {
 	["queen"] = 1, 
-	["nate"] = 1
+	["nate"] = 1,
+	["harlow"] = 1,
+	["fortune"] = 1
 }
 
 --#region FUNCTIONS
 
 local function Accept(ParticipantName)
+	ts.Participants.CheatCreateParticipant_IfNecessary(ParticipantID[ParticipantName])
 	ts.SessionParticipants.SetCheatCreateSessionParticipant(ParticipantID[ParticipantName])
 	ts.Quests.StartQuestForCurrentPlayerNet(AcceptQuest[ParticipantName])
+end
+
+local function IsDefinedByID(ParticipantID)
+	--local participant = ts.SessionParticipants.GetParticipant(ParticipantID).GUID
+	--local result = participant ~= 0
+	--return result
+	return ts.Participants.GetTradeRightsSuccess(ParticipantID) ~= ""
+end
+
+
+local function IsDefined(ParticipantName)
+	local pid = ParticipantID[ParticipantName]
+	return IsDefinedByID(pid)
+end
+
+local function IsCounted(ParticipantName)
+	return DoNotCount[ParticipantName] ~= 1
 end
 
 local function TooManyParticipants()
 	local _aiCount = 0
 
 	for key, participant in pairs(Participants) do
-		print(participant)
 		-- I am beginning to hate this language
-		local def = AISpawner.IsParticipantDefined(participant)
-		local counted = AISpawner.IsParticipantCounted(participant)
-		if def and counted then
+		local def = IsDefined(participant)
+		local counted = IsCounted(participant)
+		if (def and counted) then
 			_aiCount = _aiCount + 1
 		end
 	end
+	print(_aiCount)
 	return AiLimit <= _aiCount
-end
-
-local function IsCounted(ParticipantName)
-	return not DoNotCount[participant] == 1
-end
-
-local function IsDefinedByID(ParticipantID)
-	local participant = ts.SessionParticipants.GetParticipant(ParticipantID).GUID
-	local result = not participant == 0
-	return result
-end
-
-local function IsDefined(ParticipantName)
-	local pid = ParticipantID[ParticipantName]
-	return IsDefinedByID(pid)
 end
 
 local function IsValidParticipant(ParticipantName)

@@ -1,12 +1,10 @@
 {
-  "Version": "1",
+  "Version": "1.0.2",
   "ModID": "Spice_ArcticQuay",
   "IncompatibleIds": null,
-  "ModDependencies": [
-    "ThePassage"
-  ],
+  "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "装饰",
     "English": "Ornamental",
     "French": null,
     "German": "Zierobjekte",
@@ -19,7 +17,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "北极码头",
     "English": "Arctic Quay",
     "French": null,
     "German": "Kaimauer für die Arktis",
@@ -32,7 +30,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "为北极地区增加了一个码头。",
     "English": "Adds a quay for the arctic region.",
     "French": null,
     "German": "Fügt eine Kaimauer für die Arktis hinzu.",
@@ -53,5 +51,6 @@
   ],
   "CreatorName": "Spice it up-Team: Taubenangriff",
   "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image" : null
+  "Image" : null,
+  "ModioResourceId" : 3211569
 }

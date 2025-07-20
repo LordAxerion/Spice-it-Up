@@ -1,10 +1,10 @@
 {
-  "Version": "1",
+  "Version": "1.0.1",
   "ModID": "Spice_3rdPartyMessages",
   "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "调整",
     "English": "Adjustments",
     "French": null,
     "German": "Anpassung",
@@ -17,7 +17,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "移除NPC的随机对话",
     "English": "Third Party Messages Removed",
     "French": null,
     "German": "Meldungen der NPC entfernt",
@@ -30,7 +30,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "移除NPC的随机对话",
     "English": "Removes random talking by NPC\u0027s",
     "French": null,
     "German": "Entfernt nicht benötigte Sprachmeldungen der NPC.",
@@ -46,5 +46,6 @@
   "DLCDependencies": null,
   "CreatorName": "Spice it up-Team: Miraak",
   "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image" : null
+  "Image" : null,
+  "ModioResourceId":3210508
 }

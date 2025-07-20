@@ -1,12 +1,10 @@
 {
-  "Version": "1",
+  "Version": "1.0.1",
   "ModID": "Spice_Incidents",
-  "IncompatibleIds": [
-    "NewHorizons"
-  ],
+  "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "游戏玩法",
     "English": "Gameplay",
     "French": null,
     "German": "Spielablauf",
@@ -19,7 +17,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "事件减少",
     "English": "Incidents Reduced",
     "French": null,
     "German": "Katastrophen reduziert",
@@ -32,7 +30,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "增加事件的冷却时间。",
     "English": "Increases the cooldown of incidents.",
     "French": null,
     "German": "Erhöht den Cooldown zwischen Katastrophen.",
@@ -48,5 +46,6 @@
   "DLCDependencies": null,
   "CreatorName": "Spice it up-Team: Taubenangriff",
   "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image" : null
+  "Image" : null,
+  "ModioResourceId" : 3211309
 }

@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>901999</GUID>
+      <Text>Luftschiff "Nate"</Text>
+    </Text>
+    <Text>
+      <GUID>1440136001</GUID>
+      <Text>Luftschiff "Nate"</Text>
+    </Text>
+  </ModOp>
+</ModOps>

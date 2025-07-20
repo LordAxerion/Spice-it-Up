@@ -1,12 +1,10 @@
 {
-  "Version": "1.1",
+  "Version": "1.2.1",
   "ModID": "Spice_CommuterNewWorld",
-  "IncompatibleIds": [
-    "NewHorizons"
-  ],
+  "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "游戏玩法",
     "English": "Gameplay",
     "French": null,
     "German": "Spielablauf",
@@ -19,7 +17,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "新世界通勤码头",
     "English": "Commuter pier for the new world",
     "French": null,
     "German": "Pendler-Anlegestelle in der neuen Welt",
@@ -32,7 +30,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "为新世界增加一个通勤码头。",
     "English": "Adds a commuter pier for the new world. ",
     "French": null,
     "German": "Fügt einen Pendlerkai für die neue Welt hinzu.",
@@ -47,5 +45,6 @@
   "KnownIssues": null,
   "DLCDependencies": null,
   "CreatorName": "Spice it up-Team: DaLexy und Taubenangriff",
-  "CreatorContact": "https://discord.gg/YTQGDFK"
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "ModioResourceId" : 3210578
 }

@@ -1,12 +1,10 @@
 {
-  "Version": "1",
+  "Version": "1.0.1",
   "ModID": "Spice_BuildableSalvagers",
-  "IncompatibleIds": [
-    "NewHorizons"
-  ],
+  "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
-    "Chinese": null,
+    "Chinese": "游戏玩法",
     "English": "Gameplay",
     "French": null,
     "German": "Spielablauf",
@@ -19,7 +17,7 @@
     "Taiwanese": null
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "可建造打捞船",
     "English": "Buildable Salvagers",
     "French": null,
     "German": "Baubare Tauchboote",
@@ -32,7 +30,7 @@
     "Taiwanese": null
   },
   "Description": {
-    "Chinese": null,
+    "Chinese": "打捞船可在蒸汽船坞进行施工。",
     "English": "Salvagers are available for construction in the steam shipyard.",
     "French": null,
     "German": "Tauchboote können in der Dampfschiffswerft gebaut werden.",
@@ -53,5 +51,6 @@
   ],
   "CreatorName": "Spice it up-Team: Taubenangriff",
   "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image" : null
+  "Image" : null,
+  "ModioResourceId" : 3210560
 }
